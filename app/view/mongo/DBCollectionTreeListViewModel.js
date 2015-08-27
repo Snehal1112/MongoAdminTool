@@ -27,13 +27,25 @@ Ext.define('Mongo.view.mongo.DBCollectionTreeListViewModel', {
             root: {
                 expanded: true
             },
-            proxy: 'request',
+            proxy: {
+                type : 'request',
+                moduleName : 'authenticate',
+                action : 'treelist'
+            },
             folderSort: true,
             sorters: [{
                 property: 'text',
                 direction: 'ASC'
             }]
-            
+        },
+        gridStore :{
+            proxy: {
+                type : 'request',
+                moduleName : 'authenticate',
+                action : 'list'
+            },
+            model : 'Mongo.model.Role',
+            autoLoad : true
         }
     }
 });

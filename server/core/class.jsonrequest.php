@@ -22,13 +22,12 @@ class JSONRequest
             $data = json_decode($json, true);
 
             // Check if the JSON is parsed correctly into an array
-            $data = $data["zarafa"] ? $data["zarafa"] : false;
+            $data = $data["mongo"] ? $data["mongo"] : false;
             // @TODO throw exception if zarafa tag is not present
             if(is_array($data)) {
                 // iterate over all module names
                 foreach($data as $moduleName => $moduleData) {
                     // each module can contain multiple requests using different module ids
-dump($moduleName, '$moduleName');
                     dump($moduleData, '$moduleData');
                        $moduleObj = $GLOBALS["dispatcher"]->loadModule($moduleName, $moduleData);
 

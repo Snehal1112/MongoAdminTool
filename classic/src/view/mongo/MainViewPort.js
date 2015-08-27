@@ -38,15 +38,7 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
         }
     }, {
         region: 'center',
-        bodyPadding: 10,
-        bind: {
-            html: '{selectionText}'
-        },
-        listeners : {
-            afterrender : function()
-            {
-                console.log('Grid Load');
-            }
-        }
+        xtype : 'collectiongrid',
+        bind: '{gridStore}',
     }]
 });

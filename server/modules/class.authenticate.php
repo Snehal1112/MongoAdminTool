@@ -23,10 +23,26 @@ class authenticate extends ListModule
                     $this->userAuthentication($action["userid"], $action["password"], $action["access"]);
                 break;
                 case "list":
+                    $this->getListRecord($action);
+                    break;
+                case "treelist":
                     $this->getData($action);
                 break;
             }
         }
+    }
+
+    function getListRecord($action)
+    {
+        $collection =  $GLOBALS['connection']->connStart('users');
+        $query = array();
+        $usersCursor = $collection->find($query,array("_id" => false));
+        foreach ($usersCursor as $document) {
+            $data[] = $document;
+        }
+        $response = array('children' => $data);
+        $response['success'] = true;
+        echo json_encode($response);
     }
 
     function getData($action)

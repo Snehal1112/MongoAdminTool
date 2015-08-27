@@ -5,27 +5,51 @@ Ext.define('Mongo.view.mongo.Request', {
     constructor : function(config)
     {
     	config = config || {};
-    	this.callParent(config);
-    },
-    actionMethods: {
-        read: 'POST'
-    },
-    url: 'server/class.mongo.php',
-    paramsAsJson: true,
-    reader: {
-        type: 'json',
-        root: 'children'
+        Ext.applyIf(config,{
+            action : config.action,
+            url: 'server/class.mongo.php',
+            actionMethods: {
+                read: 'POST'
+            },
+            paramsAsJson: true,
+            reader: {
+                type: 'json',
+                rootProperty: 'children'
+            }
+        });
+    	this.callParent(arguments);
     },
 
+    /**
+     * Build the request 
+     */
     buildRequest: function(operation) {
         request = this.callParent(arguments);
-        request.setParams({
-        	zarafa : {
-	        	authenticate : {
-		    		 list : request.getParams()
-		     	}
-	     	}
-	     });
+        var params = this.buildParams(request.getParams());
+
+        request.setParams(params);
         return request;
+    },
+
+    /**
+     * Build the request parameter 
+     */
+    buildParams : function(requestParams)
+    {
+        this.reset();
+        mongoTag.mongo[this.moduleName] = {};
+        mongoTag.mongo[this.moduleName][this.action] = {};
+        mongoTag.mongo[this.moduleName][this.action] = requestParams;
+        return mongoTag;
+    },
+
+    /**
+     * reset the paramert of the request 
+     */
+    reset : function()
+    {
+        mongoTag = {
+            'mongo' : {}
+        };
     }
 });
