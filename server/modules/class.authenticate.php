@@ -34,14 +34,46 @@ class authenticate extends ListModule
 
     function getListRecord($action)
     {
-        $collection =  $GLOBALS['connection']->connStart('users');
+        dump($action, '$action');
+        $collection =  $GLOBALS['connection']->connStart('restaurants');
         $query = array();
-        $usersCursor = $collection->find($query,array("_id" => false));
+        $fields = array();
+        $colModel = array();
+        $enablRowExpander = false;
+        $usersCursor = $collection->find($query,array("_id" => false))->limit($action['limit']);
         foreach ($usersCursor as $document) {
             $data[] = $document;
+            foreach ($document as $key => $value) {
+                if(array_search($key, $fields) === false){
+                    array_push($fields,$key);
+                }
+            }
         }
+        foreach ($fields as $key => $value) {
+            $colModel['dataIndex'] = $value;
+            $colModel['header'] = $value;
+            if(!is_array($data[0][$value])){
+                $colModel['editor'] = array('xtype' => 'textfield');
+            } else if($value === 'address') {
+                dump($value, '$value');
+                $colModel['editor'] = array('xtype' => 'combobox',
+                    'store' =>  array('Shade','Shade')/*array('s', 'b','c')*//*$data[0][$value]['coord']*/,
+                    'autoSelect'=> true,
+                    'typeAhead'=> true,
+                    'triggerAction'=> 'all',
+                 );
+            } 
+             $t[] = $colModel;
+        }
+        dump($enablRowExpander, '$enablRowExpander');
         $response = array('children' => $data);
         $response['success'] = true;
+        $response['metaData']['root'] = 'children';
+        $response['metaData']['rowexpander'] = $enablRowExpander;
+        $response['metaData']['fields'] = $fields;
+        $response['metaData']['clientIdProperty'] = 'clientId';
+        $response['metaData']['colModel'] = $t;
+
         echo json_encode($response);
     }
 

@@ -44,8 +44,8 @@ Ext.define('Mongo.view.mongo.DBCollectionTreeListViewModel', {
                 moduleName : 'authenticate',
                 action : 'list'
             },
-            model : 'Mongo.model.Role',
-            autoLoad : true
+            model : 'Mongo.model.Role'
+            /*autoLoad : true*/
         }
     }
 });

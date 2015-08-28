@@ -1,11 +1,18 @@
-[27-Aug-2015 17:36:59] $moduleData - array (
+[28-Aug-2015 19:05:32] $moduleData - array (
   'treelist' => 
   array (
     'sort' => '[{"property":"text","direction":"ASC"}]',
     'node' => 'root',
   ),
 )
-[27-Aug-2015 17:36:59] $moduleData - array (
+[28-Aug-2015 19:05:32] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[28-Aug-2015 19:05:32] $moduleData - array (
   'list' => 
   array (
     'page' => 1,
@@ -13,33 +20,37 @@
     'limit' => 25,
   ),
 )
-[27-Aug-2015 17:36:59] $daat - array (
-  0 => 
-  array (
-    'user_id' => '55573195b36ed35d0a8b4567',
-    'first_name' => 'sd',
-    'last_name' => '',
-    'message_class' => 'Team',
-    'party' => 1,
-    'display_name' => '',
-    'company_name' => '',
-    'business_telephone_number' => 0,
-    'home_telephone_number' => 0,
-    'business_fax_number' => 0,
-    'mobile_telephone_number' => 0,
-    'email_address' => '',
-    'address_display' => '',
-    'password' => 'sd',
-  ),
+[28-Aug-2015 19:05:32] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
 )
-[27-Aug-2015 17:38:25] $moduleData - array (
+[28-Aug-2015 19:05:32] $data[0][$value] - array (
+  'building' => '1007',
+  'coord' => 
+  array (
+    0 => -73.856077,
+    1 => 40.848447,
+  ),
+  'street' => 'Morris Park Ave',
+  'zipcode' => '10462',
+)
+[28-Aug-2015 19:05:32] $enablRowExpander - false
+[28-Aug-2015 19:07:47] $moduleData - array (
   'treelist' => 
   array (
     'sort' => '[{"property":"text","direction":"ASC"}]',
     'node' => 'root',
   ),
 )
-[27-Aug-2015 17:38:25] $moduleData - array (
+[28-Aug-2015 19:07:47] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[28-Aug-2015 19:07:47] $moduleData - array (
   'list' => 
   array (
     'page' => 1,
@@ -47,33 +58,37 @@
     'limit' => 25,
   ),
 )
-[27-Aug-2015 17:38:25] $daat - array (
-  0 => 
-  array (
-    'user_id' => '55573195b36ed35d0a8b4567',
-    'first_name' => 'sd',
-    'last_name' => '',
-    'message_class' => 'Team',
-    'party' => 1,
-    'display_name' => '',
-    'company_name' => '',
-    'business_telephone_number' => 0,
-    'home_telephone_number' => 0,
-    'business_fax_number' => 0,
-    'mobile_telephone_number' => 0,
-    'email_address' => '',
-    'address_display' => '',
-    'password' => 'sd',
-  ),
+[28-Aug-2015 19:07:47] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
 )
-[27-Aug-2015 17:50:21] $moduleData - array (
+[28-Aug-2015 19:07:47] $data[0][$value] - array (
+  'building' => '1007',
+  'coord' => 
+  array (
+    0 => -73.856077,
+    1 => 40.848447,
+  ),
+  'street' => 'Morris Park Ave',
+  'zipcode' => '10462',
+)
+[28-Aug-2015 19:07:47] $enablRowExpander - false
+[28-Aug-2015 19:09:14] $moduleData - array (
   'treelist' => 
   array (
     'sort' => '[{"property":"text","direction":"ASC"}]',
     'node' => 'root',
   ),
 )
-[27-Aug-2015 17:50:21] $moduleData - array (
+[28-Aug-2015 19:09:14] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[28-Aug-2015 19:09:14] $moduleData - array (
   'list' => 
   array (
     'page' => 1,
@@ -81,33 +96,37 @@
     'limit' => 25,
   ),
 )
-[27-Aug-2015 17:50:21] $daat - array (
-  0 => 
-  array (
-    'user_id' => '55573195b36ed35d0a8b4567',
-    'first_name' => 'sd',
-    'last_name' => '',
-    'message_class' => 'Team',
-    'party' => 1,
-    'display_name' => '',
-    'company_name' => '',
-    'business_telephone_number' => 0,
-    'home_telephone_number' => 0,
-    'business_fax_number' => 0,
-    'mobile_telephone_number' => 0,
-    'email_address' => '',
-    'address_display' => '',
-    'password' => 'sd',
-  ),
+[28-Aug-2015 19:09:14] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
 )
-[27-Aug-2015 17:57:54] $moduleData - array (
+[28-Aug-2015 19:09:14] $data[0][$value] - array (
+  'building' => '1007',
+  'coord' => 
+  array (
+    0 => -73.856077,
+    1 => 40.848447,
+  ),
+  'street' => 'Morris Park Ave',
+  'zipcode' => '10462',
+)
+[28-Aug-2015 19:09:14] $enablRowExpander - false
+[28-Aug-2015 19:09:45] $moduleData - array (
   'treelist' => 
   array (
     'sort' => '[{"property":"text","direction":"ASC"}]',
     'node' => 'root',
   ),
 )
-[27-Aug-2015 17:58:13] $moduleData - array (
+[28-Aug-2015 19:09:45] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[28-Aug-2015 19:09:45] $moduleData - array (
   'list' => 
   array (
     'page' => 1,
@@ -115,33 +134,37 @@
     'limit' => 25,
   ),
 )
-[27-Aug-2015 17:58:13] $daat - array (
-  0 => 
-  array (
-    'user_id' => '55573195b36ed35d0a8b4567',
-    'first_name' => 'sd',
-    'last_name' => '',
-    'message_class' => 'Team',
-    'party' => 1,
-    'display_name' => '',
-    'company_name' => '',
-    'business_telephone_number' => 0,
-    'home_telephone_number' => 0,
-    'business_fax_number' => 0,
-    'mobile_telephone_number' => 0,
-    'email_address' => '',
-    'address_display' => '',
-    'password' => 'sd',
-  ),
+[28-Aug-2015 19:09:45] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
 )
-[27-Aug-2015 17:59:14] $moduleData - array (
+[28-Aug-2015 19:09:45] $data[0][$value] - array (
+  'building' => '1007',
+  'coord' => 
+  array (
+    0 => -73.856077,
+    1 => 40.848447,
+  ),
+  'street' => 'Morris Park Ave',
+  'zipcode' => '10462',
+)
+[28-Aug-2015 19:09:45] $enablRowExpander - false
+[28-Aug-2015 19:14:16] $moduleData - array (
   'treelist' => 
   array (
     'sort' => '[{"property":"text","direction":"ASC"}]',
     'node' => 'root',
   ),
 )
-[27-Aug-2015 18:00:05] $moduleData - array (
+[28-Aug-2015 19:14:16] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[28-Aug-2015 19:14:17] $moduleData - array (
   'list' => 
   array (
     'page' => 1,
@@ -149,33 +172,21 @@
     'limit' => 25,
   ),
 )
-[27-Aug-2015 18:00:05] $daat - array (
-  0 => 
-  array (
-    'user_id' => '55573195b36ed35d0a8b4567',
-    'first_name' => 'sd',
-    'last_name' => '',
-    'message_class' => 'Team',
-    'party' => 1,
-    'display_name' => '',
-    'company_name' => '',
-    'business_telephone_number' => 0,
-    'home_telephone_number' => 0,
-    'business_fax_number' => 0,
-    'mobile_telephone_number' => 0,
-    'email_address' => '',
-    'address_display' => '',
-    'password' => 'sd',
-  ),
-)
-[27-Aug-2015 18:13:28] $moduleData - array (
+[28-Aug-2015 19:16:25] $moduleData - array (
   'treelist' => 
   array (
     'sort' => '[{"property":"text","direction":"ASC"}]',
     'node' => 'root',
   ),
 )
-[27-Aug-2015 18:13:28] $moduleData - array (
+[28-Aug-2015 19:16:25] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[28-Aug-2015 19:16:25] $moduleData - array (
   'list' => 
   array (
     'page' => 1,
@@ -183,33 +194,37 @@
     'limit' => 25,
   ),
 )
-[27-Aug-2015 18:13:28] $daat - array (
-  0 => 
-  array (
-    'user_id' => '55573195b36ed35d0a8b4567',
-    'first_name' => 'sd',
-    'last_name' => '',
-    'message_class' => 'Team',
-    'party' => 1,
-    'display_name' => '',
-    'company_name' => '',
-    'business_telephone_number' => 0,
-    'home_telephone_number' => 0,
-    'business_fax_number' => 0,
-    'mobile_telephone_number' => 0,
-    'email_address' => '',
-    'address_display' => '',
-    'password' => 'sd',
-  ),
+[28-Aug-2015 19:16:25] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
 )
-[27-Aug-2015 18:15:15] $moduleData - array (
+[28-Aug-2015 19:16:25] $data[0][$value] - array (
+  'building' => '1007',
+  'coord' => 
+  array (
+    0 => -73.856077,
+    1 => 40.848447,
+  ),
+  'street' => 'Morris Park Ave',
+  'zipcode' => '10462',
+)
+[28-Aug-2015 19:16:25] $enablRowExpander - false
+[28-Aug-2015 19:17:14] $moduleData - array (
   'treelist' => 
   array (
     'sort' => '[{"property":"text","direction":"ASC"}]',
     'node' => 'root',
   ),
 )
-[27-Aug-2015 18:15:15] $moduleData - array (
+[28-Aug-2015 19:17:14] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[28-Aug-2015 19:17:14] $moduleData - array (
   'list' => 
   array (
     'page' => 1,
@@ -217,14 +232,37 @@
     'limit' => 25,
   ),
 )
-[27-Aug-2015 18:15:36] $moduleData - array (
+[28-Aug-2015 19:17:14] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+)
+[28-Aug-2015 19:17:14] $data[0][$value] - array (
+  'building' => '1007',
+  'coord' => 
+  array (
+    0 => -73.856077,
+    1 => 40.848447,
+  ),
+  'street' => 'Morris Park Ave',
+  'zipcode' => '10462',
+)
+[28-Aug-2015 19:17:14] $enablRowExpander - false
+[28-Aug-2015 19:17:47] $moduleData - array (
   'treelist' => 
   array (
     'sort' => '[{"property":"text","direction":"ASC"}]',
     'node' => 'root',
   ),
 )
-[27-Aug-2015 18:15:36] $moduleData - array (
+[28-Aug-2015 19:17:47] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[28-Aug-2015 19:17:47] $moduleData - array (
   'list' => 
   array (
     'page' => 1,
@@ -232,14 +270,37 @@
     'limit' => 25,
   ),
 )
-[27-Aug-2015 18:16:33] $moduleData - array (
+[28-Aug-2015 19:17:47] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+)
+[28-Aug-2015 19:17:47] $data[0][$value] - array (
+  'building' => '1007',
+  'coord' => 
+  array (
+    0 => -73.856077,
+    1 => 40.848447,
+  ),
+  'street' => 'Morris Park Ave',
+  'zipcode' => '10462',
+)
+[28-Aug-2015 19:17:47] $enablRowExpander - false
+[28-Aug-2015 19:22:25] $moduleData - array (
   'treelist' => 
   array (
     'sort' => '[{"property":"text","direction":"ASC"}]',
     'node' => 'root',
   ),
 )
-[27-Aug-2015 18:16:33] $moduleData - array (
+[28-Aug-2015 19:22:25] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[28-Aug-2015 19:22:25] $moduleData - array (
   'list' => 
   array (
     'page' => 1,
@@ -247,14 +308,37 @@
     'limit' => 25,
   ),
 )
-[27-Aug-2015 18:19:35] $moduleData - array (
+[28-Aug-2015 19:22:25] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+)
+[28-Aug-2015 19:22:25] $data[0][$value] - array (
+  'building' => '1007',
+  'coord' => 
+  array (
+    0 => -73.856077,
+    1 => 40.848447,
+  ),
+  'street' => 'Morris Park Ave',
+  'zipcode' => '10462',
+)
+[28-Aug-2015 19:22:25] $enablRowExpander - false
+[28-Aug-2015 19:24:45] $moduleData - array (
   'treelist' => 
   array (
     'sort' => '[{"property":"text","direction":"ASC"}]',
     'node' => 'root',
   ),
 )
-[27-Aug-2015 18:19:35] $moduleData - array (
+[28-Aug-2015 19:24:45] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[28-Aug-2015 19:24:45] $moduleData - array (
   'list' => 
   array (
     'page' => 1,
@@ -262,14 +346,21 @@
     'limit' => 25,
   ),
 )
-[27-Aug-2015 18:20:19] $moduleData - array (
+[28-Aug-2015 19:25:32] $moduleData - array (
   'treelist' => 
   array (
     'sort' => '[{"property":"text","direction":"ASC"}]',
     'node' => 'root',
   ),
 )
-[27-Aug-2015 18:20:19] $moduleData - array (
+[28-Aug-2015 19:25:32] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[28-Aug-2015 19:25:32] $moduleData - array (
   'list' => 
   array (
     'page' => 1,
@@ -277,14 +368,37 @@
     'limit' => 25,
   ),
 )
-[27-Aug-2015 18:20:49] $moduleData - array (
+[28-Aug-2015 19:25:32] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+)
+[28-Aug-2015 19:25:32] $data[0][$value] - array (
+  'building' => '1007',
+  'coord' => 
+  array (
+    0 => -73.856077,
+    1 => 40.848447,
+  ),
+  'street' => 'Morris Park Ave',
+  'zipcode' => '10462',
+)
+[28-Aug-2015 19:25:32] $enablRowExpander - false
+[28-Aug-2015 19:26:10] $moduleData - array (
   'treelist' => 
   array (
     'sort' => '[{"property":"text","direction":"ASC"}]',
     'node' => 'root',
   ),
 )
-[27-Aug-2015 18:20:49] $moduleData - array (
+[28-Aug-2015 19:26:10] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[28-Aug-2015 19:26:10] $moduleData - array (
   'list' => 
   array (
     'page' => 1,
@@ -292,35 +406,37 @@
     'limit' => 25,
   ),
 )
-[27-Aug-2015 18:21:54] $moduleData - array (
+[28-Aug-2015 19:26:10] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+)
+[28-Aug-2015 19:26:10] $data[0][$value] - array (
+  'building' => '1007',
+  'coord' => 
+  array (
+    0 => -73.856077,
+    1 => 40.848447,
+  ),
+  'street' => 'Morris Park Ave',
+  'zipcode' => '10462',
+)
+[28-Aug-2015 19:26:10] $enablRowExpander - false
+[28-Aug-2015 19:27:55] $moduleData - array (
   'treelist' => 
   array (
     'sort' => '[{"property":"text","direction":"ASC"}]',
     'node' => 'root',
   ),
 )
-[27-Aug-2015 18:23:41] $moduleData - array (
+[28-Aug-2015 19:27:55] $moduleData - array (
   'treelist' => 
   array (
     'sort' => '[{"property":"text","direction":"ASC"}]',
     'node' => 'root',
   ),
 )
-[27-Aug-2015 18:32:47] $moduleData - array (
-  'treelist' => 
-  array (
-    'sort' => '[{"property":"text","direction":"ASC"}]',
-    'node' => 'root',
-  ),
-)
-[27-Aug-2015 18:33:29] $moduleData - array (
-  'treelist' => 
-  array (
-    'sort' => '[{"property":"text","direction":"ASC"}]',
-    'node' => 'root',
-  ),
-)
-[27-Aug-2015 18:33:29] $moduleData - array (
+[28-Aug-2015 19:27:55] $moduleData - array (
   'list' => 
   array (
     'page' => 1,
@@ -328,14 +444,37 @@
     'limit' => 25,
   ),
 )
-[27-Aug-2015 18:33:54] $moduleData - array (
+[28-Aug-2015 19:27:55] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+)
+[28-Aug-2015 19:27:55] $data[0][$value] - array (
+  'building' => '1007',
+  'coord' => 
+  array (
+    0 => -73.856077,
+    1 => 40.848447,
+  ),
+  'street' => 'Morris Park Ave',
+  'zipcode' => '10462',
+)
+[28-Aug-2015 19:27:55] $enablRowExpander - false
+[28-Aug-2015 19:29:10] $moduleData - array (
   'treelist' => 
   array (
     'sort' => '[{"property":"text","direction":"ASC"}]',
     'node' => 'root',
   ),
 )
-[27-Aug-2015 18:33:54] $moduleData - array (
+[28-Aug-2015 19:29:10] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[28-Aug-2015 19:29:10] $moduleData - array (
   'list' => 
   array (
     'page' => 1,
@@ -343,14 +482,28 @@
     'limit' => 25,
   ),
 )
-[27-Aug-2015 18:35:59] $moduleData - array (
+[28-Aug-2015 19:29:10] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+)
+[28-Aug-2015 19:29:10] $value - 'address'
+[28-Aug-2015 19:29:10] $enablRowExpander - false
+[28-Aug-2015 19:29:41] $moduleData - array (
   'treelist' => 
   array (
     'sort' => '[{"property":"text","direction":"ASC"}]',
     'node' => 'root',
   ),
 )
-[27-Aug-2015 18:35:59] $moduleData - array (
+[28-Aug-2015 19:29:41] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[28-Aug-2015 19:29:41] $moduleData - array (
   'list' => 
   array (
     'page' => 1,
@@ -358,164 +511,10 @@
     'limit' => 25,
   ),
 )
-[27-Aug-2015 18:42:20] $moduleData - array (
-  'treelist' => 
-  array (
-    'sort' => '[{"property":"text","direction":"ASC"}]',
-    'node' => 'root',
-  ),
+[28-Aug-2015 19:29:41] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
 )
-[27-Aug-2015 18:44:48] $moduleData - array (
-  'treelist' => 
-  array (
-    'sort' => '[{"property":"text","direction":"ASC"}]',
-    'node' => 'root',
-  ),
-)
-[27-Aug-2015 18:49:31] $moduleData - array (
-  'treelist' => 
-  array (
-    'sort' => '[{"property":"text","direction":"ASC"}]',
-    'node' => 'root',
-  ),
-)
-[27-Aug-2015 18:49:31] $moduleData - array (
-  'list' => 
-  array (
-    'page' => 1,
-    'start' => 0,
-    'limit' => 25,
-  ),
-)
-[27-Aug-2015 18:50:10] $moduleData - array (
-  'treelist' => 
-  array (
-    'sort' => '[{"property":"text","direction":"ASC"}]',
-    'node' => 'root',
-  ),
-)
-[27-Aug-2015 18:50:10] $moduleData - array (
-  'list' => 
-  array (
-    'page' => 1,
-    'start' => 0,
-    'limit' => 25,
-  ),
-)
-[27-Aug-2015 18:50:46] $moduleData - array (
-  'treelist' => 
-  array (
-    'sort' => '[{"property":"text","direction":"ASC"}]',
-    'node' => 'root',
-  ),
-)
-[27-Aug-2015 18:52:05] $moduleData - array (
-  'treelist' => 
-  array (
-    'sort' => '[{"property":"text","direction":"ASC"}]',
-    'node' => 'root',
-  ),
-)
-[27-Aug-2015 18:54:36] $moduleData - array (
-  'treelist' => 
-  array (
-    'sort' => '[{"property":"text","direction":"ASC"}]',
-    'node' => 'root',
-  ),
-)
-[27-Aug-2015 18:54:36] $moduleData - array (
-  'list' => 
-  array (
-    'page' => 1,
-    'start' => 0,
-    'limit' => 25,
-  ),
-)
-[27-Aug-2015 18:56:13] $moduleData - array (
-  'treelist' => 
-  array (
-    'sort' => '[{"property":"text","direction":"ASC"}]',
-    'node' => 'root',
-  ),
-)
-[27-Aug-2015 18:56:13] $moduleData - array (
-  'list' => 
-  array (
-    'page' => 1,
-    'start' => 0,
-    'limit' => 25,
-  ),
-)
-[27-Aug-2015 18:57:03] $moduleData - array (
-  'treelist' => 
-  array (
-    'sort' => '[{"property":"text","direction":"ASC"}]',
-    'node' => 'root',
-  ),
-)
-[27-Aug-2015 18:57:03] $moduleData - array (
-  'list' => 
-  array (
-    'page' => 1,
-    'start' => 0,
-    'limit' => 25,
-  ),
-)
-[27-Aug-2015 18:57:20] $moduleData - array (
-  'treelist' => 
-  array (
-    'sort' => '[{"property":"text","direction":"ASC"}]',
-    'node' => 'root',
-  ),
-)
-[27-Aug-2015 18:57:55] $moduleData - array (
-  'treelist' => 
-  array (
-    'sort' => '[{"property":"text","direction":"ASC"}]',
-    'node' => 'root',
-  ),
-)
-[27-Aug-2015 18:58:24] $moduleData - array (
-  'treelist' => 
-  array (
-    'sort' => '[{"property":"text","direction":"ASC"}]',
-    'node' => 'root',
-  ),
-)
-[27-Aug-2015 18:58:36] $moduleData - array (
-  'treelist' => 
-  array (
-    'sort' => '[{"property":"text","direction":"ASC"}]',
-    'node' => 'root',
-  ),
-)
-[27-Aug-2015 18:58:36] $moduleData - array (
-  'list' => 
-  array (
-    'page' => 1,
-    'start' => 0,
-    'limit' => 25,
-  ),
-)
-[27-Aug-2015 18:59:29] $moduleData - array (
-  'treelist' => 
-  array (
-    'sort' => '[{"property":"text","direction":"ASC"}]',
-    'node' => 'root',
-  ),
-)
-[27-Aug-2015 18:59:29] $moduleData - array (
-  'list' => 
-  array (
-    'page' => 1,
-    'start' => 0,
-    'limit' => 25,
-  ),
-)
-[27-Aug-2015 18:59:39] $moduleData - array (
-  'treelist' => 
-  array (
-    'sort' => '[{"property":"text","direction":"ASC"}]',
-    'node' => 'root',
-  ),
-)
+[28-Aug-2015 19:29:41] $value - 'address'
+[28-Aug-2015 19:29:41] $enablRowExpander - false

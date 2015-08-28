@@ -39,6 +39,6 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
     }, {
         region: 'center',
         xtype : 'collectiongrid',
-        bind: '{gridStore}',
+        bind: '{gridStore}'
     }]
 });
