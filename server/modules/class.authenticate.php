@@ -36,24 +36,28 @@ class authenticate extends ListModule
     {
         $collection =  $GLOBALS['connection']->connStart('users');
         $query = array();
-        $children = array();
-        $usersCursor = $collection->find($query,array("_id" => false))->limit(2);
+        $usersCursor = $collection->find($query,array("_id" => false))->limit(50);
         $response['text'] = '.';
         foreach ($usersCursor as $document) {
             foreach ($document as $key => $value) {
-                $data[] = array(
+                $nodes[] = array(
                     'key' => $key,
                     'field' => $value,
                     'type' => gettype($value),
                     'leaf' => true
                 ); 
             }
-            $children = array('key'=>'userss','children'=> $data);
+       
+            $data[] = array(
+                'key' => $document['user_id'],
+                'field' => "{ " . count($document) . " fields }",
+                'type' => gettype($document),
+                'children' => $nodes
+            );
+            unset($nodes);
         }
         
-        //$response = array('children' => $data);
-        $response = array('children' => $children);
-        dump(json_encode($response), 'json_encode($response)');
+        $response = array('children' => $data);
         echo json_encode($response);
     }
 

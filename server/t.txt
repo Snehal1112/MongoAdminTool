@@ -1,19 +1,293 @@
-[30-Aug-2015 19:09:20] $moduleData - array (
+[30-Aug-2015 19:50:22] $moduleData - array (
   'list' => 
   array (
     'sort' => '[{"property":"text","direction":"ASC"}]',
     'node' => 'root',
   ),
 )
-[30-Aug-2015 19:09:20] json_encode($response) - '{"children":{"key":"userss","children":[{"key":"user_id","field":"556aceacb36ed37a0b8b4567","type":"string","leaf":true},{"key":"first_name","field":"snehal","type":"string","leaf":true},{"key":"last_name","field":"dangroshiya","type":"string","leaf":true},{"key":"message_class","field":"Team","type":"string","leaf":true},{"key":"party","field":2,"type":"integer","leaf":true},{"key":"display_name","field":"snehal dangroshiya","type":"string","leaf":true},{"key":"company_name","field":"helios","type":"string","leaf":true},{"key":"business_telephone_number","field":0,"type":"integer","leaf":true},{"key":"home_telephone_number","field":0,"type":"integer","leaf":true},{"key":"business_fax_number","field":0,"type":"integer","leaf":true},{"key":"mobile_telephone_number","field":0,"type":"integer","leaf":true},{"key":"email_address","field":"","type":"string","leaf":true},{"key":"address_display","field":"","type":"string","leaf":true},{"key":"password","field":"","type":"string","leaf":true},{"key":"user_id","field":"556acfcfb36ed393098b4567","type":"string","leaf":true},{"key":"first_name","field":"snehal","type":"string","leaf":true},{"key":"last_name","field":"","type":"string","leaf":true},{"key":"message_class","field":"Team","type":"string","leaf":true},{"key":"party","field":2,"type":"integer","leaf":true},{"key":"display_name","field":"","type":"string","leaf":true},{"key":"company_name","field":"","type":"string","leaf":true},{"key":"business_telephone_number","field":0,"type":"integer","leaf":true},{"key":"home_telephone_number","field":0,"type":"integer","leaf":true},{"key":"business_fax_number","field":0,"type":"integer","leaf":true},{"key":"mobile_telephone_number","field":0,"type":"integer","leaf":true},{"key":"email_address","field":"","type":"string","leaf":true},{"key":"address_display","field":"","type":"string","leaf":true},{"key":"password","field":"a","type":"string","leaf":true}]}}'
-[30-Aug-2015 19:09:20] $moduleData - array (
+[30-Aug-2015 19:50:22] $moduleData - array (
   'treelist' => 
   array (
     'sort' => '[{"property":"text","direction":"ASC"}]',
     'node' => 'root',
   ),
 )
-[30-Aug-2015 19:09:20] $moduleData - array (
+[30-Aug-2015 19:50:22] json_encode($response) - '{"children":[{"key":"usersss1122","iconCls":"x-faaa fa-mongodb","children":[{"key":"user_id","field":"556aceacb36ed37a0b8b4567","type":"string","leaf":true},{"key":"first_name","field":"snehal","type":"string","leaf":true},{"key":"last_name","field":"dangroshiya","type":"string","leaf":true},{"key":"message_class","field":"Team","type":"string","leaf":true},{"key":"party","field":2,"type":"integer","leaf":true},{"key":"display_name","field":"snehal dangroshiya","type":"string","leaf":true},{"key":"company_name","field":"helios","type":"string","leaf":true},{"key":"business_telephone_number","field":0,"type":"integer","leaf":true},{"key":"home_telephone_number","field":0,"type":"integer","leaf":true},{"key":"business_fax_number","field":0,"type":"integer","leaf":true},{"key":"mobile_telephone_number","field":0,"type":"integer","leaf":true},{"key":"email_address","field":"","type":"string","leaf":true},{"key":"address_display","field":"","type":"string","leaf":true},{"key":"password","field":"","type":"string","leaf":true}]},{"key":"usersss1122","iconCls":"x-faaa fa-mongodb","children":[{"key":"user_id","field":"556acfcfb36ed393098b4567","type":"string","leaf":true},{"key":"first_name","field":"snehal","type":"string","leaf":true},{"key":"last_name","field":"","type":"string","leaf":true},{"key":"message_class","field":"Team","type":"string","leaf":true},{"key":"party","field":2,"type":"integer","leaf":true},{"key":"display_name","field":"","type":"string","leaf":true},{"key":"company_name","field":"","type":"string","leaf":true},{"key":"business_telephone_number","field":0,"type":"integer","leaf":true},{"key":"home_telephone_number","field":0,"type":"integer","leaf":true},{"key":"business_fax_number","field":0,"type":"integer","leaf":true},{"key":"mobile_telephone_number","field":0,"type":"integer","leaf":true},{"key":"email_address","field":"","type":"string","leaf":true},{"key":"address_display","field":"","type":"string","leaf":true},{"key":"password","field":"a","type":"string","leaf":true}]}]}'
+[30-Aug-2015 19:50:22] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:51:11] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:51:11] $moduleData - array (
+  'list' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:51:11] json_encode($response) - '{"children":[{"key":"usersss1122","children":[{"key":"user_id","field":"556aceacb36ed37a0b8b4567","type":"string","leaf":true},{"key":"first_name","field":"snehal","type":"string","leaf":true},{"key":"last_name","field":"dangroshiya","type":"string","leaf":true},{"key":"message_class","field":"Team","type":"string","leaf":true},{"key":"party","field":2,"type":"integer","leaf":true},{"key":"display_name","field":"snehal dangroshiya","type":"string","leaf":true},{"key":"company_name","field":"helios","type":"string","leaf":true},{"key":"business_telephone_number","field":0,"type":"integer","leaf":true},{"key":"home_telephone_number","field":0,"type":"integer","leaf":true},{"key":"business_fax_number","field":0,"type":"integer","leaf":true},{"key":"mobile_telephone_number","field":0,"type":"integer","leaf":true},{"key":"email_address","field":"","type":"string","leaf":true},{"key":"address_display","field":"","type":"string","leaf":true},{"key":"password","field":"","type":"string","leaf":true}]},{"key":"usersss1122","children":[{"key":"user_id","field":"556acfcfb36ed393098b4567","type":"string","leaf":true},{"key":"first_name","field":"snehal","type":"string","leaf":true},{"key":"last_name","field":"","type":"string","leaf":true},{"key":"message_class","field":"Team","type":"string","leaf":true},{"key":"party","field":2,"type":"integer","leaf":true},{"key":"display_name","field":"","type":"string","leaf":true},{"key":"company_name","field":"","type":"string","leaf":true},{"key":"business_telephone_number","field":0,"type":"integer","leaf":true},{"key":"home_telephone_number","field":0,"type":"integer","leaf":true},{"key":"business_fax_number","field":0,"type":"integer","leaf":true},{"key":"mobile_telephone_number","field":0,"type":"integer","leaf":true},{"key":"email_address","field":"","type":"string","leaf":true},{"key":"address_display","field":"","type":"string","leaf":true},{"key":"password","field":"a","type":"string","leaf":true}]}]}'
+[30-Aug-2015 19:51:11] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:52:13] $moduleData - array (
+  'list' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:52:13] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:52:13] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:53:30] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:53:30] $moduleData - array (
+  'list' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:53:30] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:54:12] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:54:12] $moduleData - array (
+  'list' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:54:12] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:58:06] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:58:06] $moduleData - array (
+  'list' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:58:06] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:59:12] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:59:12] $moduleData - array (
+  'list' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:59:12] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:59:40] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:59:40] $moduleData - array (
+  'list' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:59:40] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:59:53] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:59:53] $moduleData - array (
+  'list' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 19:59:53] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 20:00:42] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 20:00:42] $moduleData - array (
+  'list' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 20:00:43] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 20:01:09] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 20:01:09] $moduleData - array (
+  'list' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 20:01:09] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 20:02:03] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 20:02:03] $moduleData - array (
+  'list' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 20:02:03] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 20:02:59] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 20:02:59] $moduleData - array (
+  'list' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 20:02:59] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 20:04:32] $moduleData - array (
+  'treelist' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 20:04:32] $moduleData - array (
+  'list' => 
+  array (
+    'sort' => '[{"property":"text","direction":"ASC"}]',
+    'node' => 'root',
+  ),
+)
+[30-Aug-2015 20:04:33] $moduleData - array (
   'treelist' => 
   array (
     'sort' => '[{"property":"text","direction":"ASC"}]',
