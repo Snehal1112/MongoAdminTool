@@ -1,5 +1,13 @@
 Ext.define('Mongo.model.Role', {
-    extend: 'Ext.data.Model',
-    clientIdProperty: 'clientId'/*,
-    fields: ['first_name', 'user_id']*/
+    extend: 'Ext.data.TreeModel',
+    fields: [{
+        name: 'key', 
+        type: 'string'
+    }, {
+        name: 'field',
+        type: 'string'
+    }, {
+        name: 'type',
+        type: 'string'
+    }]
 });

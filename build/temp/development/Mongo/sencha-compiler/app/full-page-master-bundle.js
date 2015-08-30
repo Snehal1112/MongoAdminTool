@@ -1,2 +1,2 @@
 // @tag full-page
-// @require Z:\html\snehal\MongoAdminTool\app.js
+// @require Z:\MongoAdminTool\app.js

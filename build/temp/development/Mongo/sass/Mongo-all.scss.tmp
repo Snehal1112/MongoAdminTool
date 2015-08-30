@@ -1,5 +1,5 @@
 $app-name:  dynamic( 'Mongo' );
-$image-search-path: 'Z:/html/snehal/MongoAdminTool/build/development/Mongo/classic/resources';
+$image-search-path: 'Z:/MongoAdminTool/build/development/Mongo/classic/resources';
 $theme-name:  dynamic( 'theme-triton' );
 $include-ext-abstractcomponent: dynamic(true);;
 $include-ext-abstractcontainer: dynamic(true);;

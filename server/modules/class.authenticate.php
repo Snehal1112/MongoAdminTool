@@ -34,46 +34,26 @@ class authenticate extends ListModule
 
     function getListRecord($action)
     {
-        dump($action, '$action');
-        $collection =  $GLOBALS['connection']->connStart('restaurants');
+        $collection =  $GLOBALS['connection']->connStart('users');
         $query = array();
-        $fields = array();
-        $colModel = array();
-        $enablRowExpander = false;
-        $usersCursor = $collection->find($query,array("_id" => false))->limit($action['limit']);
+        $children = array();
+        $usersCursor = $collection->find($query,array("_id" => false))->limit(2);
+        $response['text'] = '.';
         foreach ($usersCursor as $document) {
-            $data[] = $document;
             foreach ($document as $key => $value) {
-                if(array_search($key, $fields) === false){
-                    array_push($fields,$key);
-                }
+                $data[] = array(
+                    'key' => $key,
+                    'field' => $value,
+                    'type' => gettype($value),
+                    'leaf' => true
+                ); 
             }
+            $children = array('key'=>'userss','children'=> $data);
         }
-        foreach ($fields as $key => $value) {
-            $colModel['dataIndex'] = $value;
-            $colModel['header'] = $value;
-            if(!is_array($data[0][$value])){
-                $colModel['editor'] = array('xtype' => 'textfield');
-            } else if($value === 'address') {
-                dump($value, '$value');
-                $colModel['editor'] = array('xtype' => 'combobox',
-                    'store' =>  array('Shade','Shade')/*array('s', 'b','c')*//*$data[0][$value]['coord']*/,
-                    'autoSelect'=> true,
-                    'typeAhead'=> true,
-                    'triggerAction'=> 'all',
-                 );
-            } 
-             $t[] = $colModel;
-        }
-        dump($enablRowExpander, '$enablRowExpander');
-        $response = array('children' => $data);
-        $response['success'] = true;
-        $response['metaData']['root'] = 'children';
-        $response['metaData']['rowexpander'] = $enablRowExpander;
-        $response['metaData']['fields'] = $fields;
-        $response['metaData']['clientIdProperty'] = 'clientId';
-        $response['metaData']['colModel'] = $t;
-
+        
+        //$response = array('children' => $data);
+        $response = array('children' => $children);
+        dump(json_encode($response), 'json_encode($response)');
         echo json_encode($response);
     }
 
@@ -92,16 +72,17 @@ class authenticate extends ListModule
                 );
             }
 
-            $data['children'][] = array(
-                'text' => $db['name'],
-                'iconCls'=> 'x-faaa fa-mongodb',
-                'children' => $nodes
-            );
-            unset($nodes);
-        }        
-        
+            if(isset($nodes) && !is_null($nodes)){
+                $data[] = array(
+                    'text' => $db['name'],
+                    'iconCls'=> 'x-faaa fa-mongodb',
+                    'children' => $nodes
+                );
+                unset($nodes);
+            }
+        }
         $response = array('children' => $data);
-        echo json_encode($data); 
+        echo json_encode($response); 
     }
 
     /**

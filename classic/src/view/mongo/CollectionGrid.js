@@ -1,9 +1,8 @@
 Ext.define('Mongo.view.mongo.CollectionGrid', {
-    extend: 'Ext.grid.Panel',
+    extend: 'Ext.tree.Panel',
     alias : 'widget.collectiongrid',
     requires : [
-        'Mongo.view.mongo.DBCollectionTreeListViewModel',
-        'Mongo.store.mongo.DBCollectionStore',
+        /*'Mongo.view.mongo.DBCollectionTreeListViewModel',*/
         'Mongo.view.mongo.Request',
         'Mongo.model.Role'
     ],
@@ -14,27 +13,13 @@ Ext.define('Mongo.view.mongo.CollectionGrid', {
     constructor : function(config)
     {
 		config = config || {};
-		
-    	this.tpl = new Ext.XTemplate(
-		'<tpl foreach=".">',
-			'<div><b>{$} : </b>{.}</div>',
-		'</tpl>');
+
 		Ext.applyIf(config,{
 			forceFit : true,
-			plugins: [{
-				ptype: 'cellediting',
-				clicksToEdit: 1
-			}],
-    		columns: [],
-    		store : new Ext.data.JsonStore({
-    			proxy: {
-	                type : 'request',
-	                moduleName : 'authenticate',
-	                action : 'list'
-	            },
-	            model : 'Mongo.model.Role',
-	            autoLoad : true
-        	})
+			useArrows: true,
+		    rootVisible: false,
+		    multiSelect: true,
+		    singleExpand: true
     	});
 
     	this.callParent(arguments);
@@ -45,12 +30,43 @@ Ext.define('Mongo.view.mongo.CollectionGrid', {
      */
 	initComponent : function()
 	{
-		this.callParent(arguments);
-		this.mon(this.store, 'metachange', this.onMetaChange, this);
+		Ext.apply(this, {
+			store :{
+				root: {
+              		expanded: true
+	            },
+	            proxy: {
+	                type : 'request',
+	                moduleName : 'authenticate',
+	                action : 'list'
+	            },
+	            folderSort: true,
+	            sorters: [{
+	                property: 'text',
+	                direction: 'ASC'
+	            }]
+	    	},
+			columns: [{
+                xtype: 'treecolumn', //this is so we know which column will show the tree
+                text: 'Task',
+                dataIndex: 'key'
+            },{
+          	    text: 'Fields',
+                dataIndex: 'field'
+            },{
+          	    text: 'type',
+                dataIndex: 'type'
+            }]
+		});
+		this.callParent();
+		//this.mon(this.store, 'metachange', this.onMetaChange, this);
 	},
 
+	/**
+     * 
+     */
 	onMetaChange : function(store, meta)
 	{
-		this.reconfigure(store, meta.colModel);
+		//this.reconfigure(store, meta.colModel);
 	}
 });
