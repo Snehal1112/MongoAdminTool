@@ -7,6 +7,6 @@
  */
 define('BASE_PATH', dirname($_SERVER['SCRIPT_FILENAME']) . "/");
 
-define('SERVER', "192.168.1.5");
+define('SERVER', "10.0.0.10");
 
 ?>

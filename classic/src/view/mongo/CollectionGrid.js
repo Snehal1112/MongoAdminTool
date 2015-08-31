@@ -1,72 +1,56 @@
 Ext.define('Mongo.view.mongo.CollectionGrid', {
-    extend: 'Ext.tree.Panel',
-    alias : 'widget.collectiongrid',
-    requires : [
-        /*'Mongo.view.mongo.DBCollectionTreeListViewModel',*/
-        'Mongo.view.mongo.Request',
-        'Mongo.model.Role'
-    ],
-    controller: 'tree-list',
-    viewModel: {
-        type: 'tree-list'
-    },
-    constructor : function(config)
-    {
+	/**
+	 * 
+	 */
+	extend: 'Ext.tree.Panel',
+
+	/**
+	 * 
+	 */
+	alias : 'widget.collectiongrid',
+
+	/**
+	 * 
+	 */
+	requires : [
+		'Mongo.model.Role'
+	],
+
+	/**
+	 * 
+	 */
+	constructor : function(config)
+	{
 		config = config || {};
 
 		Ext.applyIf(config,{
 			forceFit : true,
 			useArrows: true,
-		    rootVisible: false,
-		    multiSelect: true,
-		    singleExpand: true
-    	});
-
-    	this.callParent(arguments);
-    },
-
-	/**
-     * 
-     */
-	initComponent : function()
-	{
-		Ext.apply(this, {
-			store :{
-				root: {
-              		expanded: true
-	            },
-	            proxy: {
-	                type : 'request',
-	                moduleName : 'authenticate',
-	                action : 'list'
-	            },
-	            folderSort: true,
-	            sorters: [{
-	                property: 'text',
-	                direction: 'ASC'
-	            }]
-	    	},
-			columns: [{
-                xtype: 'treecolumn', //this is so we know which column will show the tree
-                text: 'Task',
-                dataIndex: 'key'
-            },{
-          	    text: 'Fields',
-                dataIndex: 'field'
-            },{
-          	    text: 'type',
-                dataIndex: 'type'
-            }]
+			rootVisible: false,
+			multiSelect: true,
+			singleExpand: true
 		});
-		this.callParent();
-		//this.mon(this.store, 'metachange', this.onMetaChange, this);
+		this.callParent(arguments);
 	},
 
 	/**
-     * 
-     */
-	onMetaChange : function(store, meta)
+	 * Function 
+	 */
+	initComponent : function()
 	{
-		//this.reconfigure(store, meta.colModel);
+		Ext.apply(this, {
+			columns: [{
+				xtype: 'treecolumn',
+				text: 'Keys',
+				dataIndex: 'key'
+			},{
+				text: 'Fields',
+				dataIndex: 'field'
+			},{
+				text: 'Type',
+				dataIndex: 'type'
+			}]
+		});
+		this.callParent();
 	}
 });

@@ -21,7 +21,7 @@
 		/**
 		 * 
 		 */
-		public function getConnection($collection)
+		public function getCollection($collection, $dataBase)
 		{
 			$dataBase = $this->getDatabase();
 			return $dataBase->$collection;
@@ -38,10 +38,10 @@
 		/**
 		 * @param bool|false $collection
 		 */
-		public function connStart($collection = false)
+		public function connStart($collection = false, $dataBase = false)
 		{
 			if($collection !== false){
-				return $this->getConnection($collection);
+				return $this->getCollection($collection, $dataBase);
 			} else {
 				$this->connClose();
 			}

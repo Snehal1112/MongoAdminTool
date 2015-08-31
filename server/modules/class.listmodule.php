@@ -96,7 +96,6 @@ class ListModule extends Module
                     $this->processException($e, $actionType, $store, $parententryid, $entryid, $action);
                 }
             }*/
-            dump($action, '$action');
         }
     }
 }

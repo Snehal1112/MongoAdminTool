@@ -4,22 +4,25 @@ Ext.define('Mongo.view.mongo.DBCollectionTreeListViewModel', {
     alias: 'viewmodel.tree-list',
 
     formulas: {
-        selectionText: function(get) {
-            console.log('Grid panel');
+        sdText: function(get) {
             var selection = get('treelist.selection'),
                 path;
             if (selection) {
-                path = selection.getPath('text');
-                path = path.replace(/^\/Root/, '');
-                return 'Selected: ' + path;
-            } else {
-                return 'No node selected';
+                var selectedNode = selection.getQueryRoot();
+                var parentNode = selectedNode.parentNode;
+                if(!parentNode.isRoot()) {
+                    var options = {};
+                    options['params'] = {};
+                    options['params']['database'] = parentNode.get('text');
+                    options['params']['collection'] = selectedNode.get('text');
+                   this.getData().gridStore.load(options);
+                }
             }
         }
     },
 
     /**
-     *
+     * 
      */
     stores: {
         treestoress: {
@@ -39,13 +42,15 @@ Ext.define('Mongo.view.mongo.DBCollectionTreeListViewModel', {
             }]
         },
         gridStore :{
+            type : 'tree',
+            root: {
+                expanded: true
+            },
             proxy: {
                 type : 'request',
                 moduleName : 'authenticate',
                 action : 'list'
-            },
-            model : 'Mongo.model.Role'
-            /*autoLoad : true*/
+            }
         }
     }
 });

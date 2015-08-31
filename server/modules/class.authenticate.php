@@ -32,24 +32,69 @@ class authenticate extends ListModule
         }
     }
 
+    /**
+     * 
+     */
+    function recursive($key, $values)
+    {
+        foreach ($values as $k => $v) {
+            if(is_array($v)){
+                $n[] = $this->recursive($k,$v); 
+            }else {
+                $n[] = array(
+                    'key' => $k,
+                    'field' => $v,
+                    'type' => gettype($v),
+                    'leaf' => true
+                );   
+            }
+        }
+
+        $nodes = array(
+            'key' => $key,
+            'field' => "{ " . count($values) . " fields }",
+            'type' => gettype($values)
+        );
+
+        if(isset($n))
+        {
+            $nodes['children'] = $n;
+        }
+        unset($n);
+        return $nodes;
+    }
+
+    /**
+     * 
+     */
     function getListRecord($action)
     {
-        $collection =  $GLOBALS['connection']->connStart('users');
-        $query = array();
-        $usersCursor = $collection->find($query,array("_id" => false))->limit(50);
-        $response['text'] = '.';
+        $co = isset($action['collection']) ?  $action['collection'] : 'restaurants';
+        $db = isset($action['database']) ?  $action['database'] : false;
+        
+        $collection =  $GLOBALS['connection']->connStart($co,$db);
+        $usersCursor = $collection->find()->limit(50);
         foreach ($usersCursor as $document) {
             foreach ($document as $key => $value) {
-                $nodes[] = array(
-                    'key' => $key,
-                    'field' => $value,
-                    'type' => gettype($value),
-                    'leaf' => true
-                ); 
+                if(is_array($value)) {
+                    $nodes[] = $this->recursive($key, $value);
+                } else {
+
+                    if(is_object($value)){
+                        $value = $document['_id']->{'$id'};
+                    }
+
+                    $nodes[] = array(
+                        'key' => $key,
+                        'field' => $value,
+                        'type' => gettype($value),
+                        'leaf' => true
+                    );
+                }
             }
        
             $data[] = array(
-                'key' => $document['user_id'],
+                'key' => $document['_id']->{'$id'},
                 'field' => "{ " . count($document) . " fields }",
                 'type' => gettype($document),
                 'children' => $nodes

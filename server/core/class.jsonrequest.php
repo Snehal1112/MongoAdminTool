@@ -28,7 +28,6 @@ class JSONRequest
                 // iterate over all module names
                 foreach($data as $moduleName => $moduleData) {
                     // each module can contain multiple requests using different module ids
-                    dump($moduleData, '$moduleData');
                        $moduleObj = $GLOBALS["dispatcher"]->loadModule($moduleName, $moduleData);
 
                         // Check if the module is loaded

@@ -5,7 +5,6 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
 
     requires : [
         'Mongo.view.mongo.DBCollectionTreeListViewModel',
-        'Mongo.store.mongo.DBCollectionStore',
         'Mongo.view.mongo.Request',
         'Mongo.model.Role'
     ],
@@ -23,22 +22,18 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
             align: 'stretch'
         },
         border: false,
-        scrollable: 'y',
         items: [{
             xtype: 'treelist',
             reference: 'treelist',
-            bind: '{treestoress}'
-            /*micro : {}*/
-        }],
-        listeners : {
-            afterrender : function()
-            {
-                console.log('Tree Load');
-            }
-        }
+            bind: '{treestoress}'/*,
+            micro : {}*/
+        }]
     }, {
-        region: 'center',
+        region : 'center',
         xtype : 'collectiongrid',
-        /*bind: '{gridStore}'*/
+        reference: 'collectionGrid',
+        bind : {
+            store : '{gridStore}'
+        }
     }]
 });
