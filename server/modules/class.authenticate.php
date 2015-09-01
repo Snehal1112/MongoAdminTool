@@ -71,10 +71,11 @@ class authenticate extends ListModule
     {
         $co = isset($action['collection']) ?  $action['collection'] : 'restaurants';
         $db = isset($action['database']) ?  $action['database'] : false;
-        
+        $data = array();
         $collection =  $GLOBALS['connection']->connStart($co,$db);
         $usersCursor = $collection->find()->limit(50);
         foreach ($usersCursor as $document) {
+            dump($document, '$document');
             foreach ($document as $key => $value) {
                 if(is_array($value)) {
                     $nodes[] = $this->recursive($key, $value);
@@ -95,13 +96,17 @@ class authenticate extends ListModule
        
             $data[] = array(
                 'key' => $document['_id']->{'$id'},
+                'iconCls' => 'x-tree-icon x-fa fa-envelope',
                 'field' => "{ " . count($document) . " fields }",
                 'type' => gettype($document),
                 'children' => $nodes
             );
             unset($nodes);
         }
-        
+
+        if (is_null($data)) {
+            return;
+        }
         $response = array('children' => $data);
         echo json_encode($response);
     }

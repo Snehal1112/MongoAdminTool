@@ -16,6 +16,8 @@ Ext.define('Mongo.view.mongo.CollectionGrid', {
 		'Mongo.model.Role'
 	],
 
+	emptyText : 'There are no items to show in this view',
+
 	/**
 	 * 
 	 */
@@ -42,6 +44,7 @@ Ext.define('Mongo.view.mongo.CollectionGrid', {
 			columns: [{
 				xtype: 'treecolumn',
 				text: 'Keys',
+				/*iconCls : 'x-tree-icon x-fa fa-envelope',*/
 				dataIndex: 'key'
 			},{
 				text: 'Fields',

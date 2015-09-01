@@ -1,5 +1,5 @@
 $app-name:  dynamic( 'Mongo' );
-$image-search-path: 'Z:/MongoAdminTool/build/development/Mongo/classic/resources';
+$image-search-path: 'Z:/html/snehal/CheckOut/MongoAdminTool/build/development/Mongo/classic/resources';
 $theme-name:  dynamic( 'theme-triton' );
 $include-ext-abstractcomponent: dynamic(true);;
 $include-ext-abstractcontainer: dynamic(true);;
@@ -221,7 +221,6 @@ $include-ext-data-proxy-server: dynamic(true);;
 $include-ext-data-proxy-sessionstorage: dynamic(true);;
 $include-ext-data-proxy-webstorage: dynamic(true);;
 $include-ext-data-reader-array: dynamic(true);;
-$include-ext-data-reader-dbreader: dynamic(true);;
 $include-ext-data-reader-json: dynamic(true);;
 $include-ext-data-reader-reader: dynamic(true);;
 $include-ext-data-reader-xml: dynamic(true);;
@@ -881,8 +880,6 @@ $include-mongo-controller-mongo-dbcontentpanelcontroller: dynamic(true);;
 $include-mongo-model-role: dynamic(true);;
 $include-mongo-store-personnel: dynamic(true);;
 $include-mongo-store-mongo-dbcollectionstore: dynamic(true);;
-$include-mongo-view-main-list: dynamic(true);;
-$include-mongo-view-main-main: dynamic(true);;
 $include-mongo-view-main-maincontroller: dynamic(true);;
 $include-mongo-view-main-mainmodel: dynamic(true);;
 $include-mongo-view-mongo-collectiongrid: dynamic(true);;
@@ -891,6 +888,7 @@ $include-mongo-view-mongo-dbcollectiontreelistviewmodel: dynamic(true);;
 $include-mongo-view-mongo-dbcontentpanel: dynamic(true);;
 $include-mongo-view-mongo-mainviewport: dynamic(true);;
 $include-mongo-view-mongo-request: dynamic(true);;
+$include-mongo-view-tree-databasetree: dynamic(true);;
 
 
 /* ======================== ETC ======================== */
@@ -1339,11 +1337,3 @@ $relative-image-path-for-uis: $theme-triton-resource-path;
 @import '../../../../../ext/classic/theme-triton/sass/src/tab/Tab';
 @import '../../../../../ext/classic/theme-triton/sass/src/tree/View';
 @import '../../../../../ext/classic/theme-triton/sass/src/window/Toast';
-
-/* including package Mongo */
-$Mongo-resource-root: '' !default;
-$Mongo-resource-path: 'images' !default;
-$current-package: false;
-$current-resource-root: $Mongo-resource-root;
-$relative-image-path-for-uis: $Mongo-resource-path;
-@import '../../../../../classic/sass/src/view/main/Main';
