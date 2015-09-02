@@ -69,13 +69,16 @@ class authenticate extends ListModule
      */
     function getListRecord($action)
     {
+        dump($action, '$action');
         $co = isset($action['collection']) ?  $action['collection'] : 'restaurants';
         $db = isset($action['database']) ?  $action['database'] : false;
+        $limit = isset($action['list']) ?  $action['list'] : 25;
+        $start = isset($action['start']) ? $action['start'] : 0;
         $data = array();
         $collection =  $GLOBALS['connection']->connStart($co,$db);
-        $usersCursor = $collection->find()->limit(50);
+        $usersCursor = $collection->find()->limit($limit)->skip($start);
+        $totalCount = $collection->count();
         foreach ($usersCursor as $document) {
-            dump($document, '$document');
             foreach ($document as $key => $value) {
                 if(is_array($value)) {
                     $nodes[] = $this->recursive($key, $value);
@@ -96,7 +99,6 @@ class authenticate extends ListModule
        
             $data[] = array(
                 'key' => $document['_id']->{'$id'},
-                'iconCls' => 'x-tree-icon x-fa fa-envelope',
                 'field' => "{ " . count($document) . " fields }",
                 'type' => gettype($document),
                 'children' => $nodes
@@ -107,7 +109,7 @@ class authenticate extends ListModule
         if (is_null($data)) {
             return;
         }
-        $response = array('children' => $data);
+        $response = array('total' => $totalCount, 'children' => $data);
         echo json_encode($response);
     }
 

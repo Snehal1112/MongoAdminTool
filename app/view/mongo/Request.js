@@ -17,7 +17,7 @@ Ext.define('Mongo.view.mongo.Request', {
                 rootProperty: 'children'
             }
         });
-    	this.callParent(arguments);
+        this.callParent(arguments);
     },
 
     /**

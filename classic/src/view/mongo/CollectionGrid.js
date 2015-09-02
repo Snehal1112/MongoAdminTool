@@ -13,6 +13,8 @@ Ext.define('Mongo.view.mongo.CollectionGrid', {
 	 * 
 	 */
 	requires : [
+		'Mongo.view.mongo.DBCollectionTreeListViewModel',
+		'Mongo.store.mongo.DocumentStore',
 		'Mongo.model.Role'
 	],
 
@@ -30,7 +32,13 @@ Ext.define('Mongo.view.mongo.CollectionGrid', {
 			useArrows: true,
 			rootVisible: false,
 			multiSelect: true,
-			singleExpand: true
+			singleExpand: true,
+			dockedItems: [{
+				xtype: 'pagingtoolbar',
+				store: 'simpsonsStore',
+				dock: 'bottom',
+				displayInfo: true
+			}]
 		});
 		this.callParent(arguments);
 	},
@@ -44,7 +52,6 @@ Ext.define('Mongo.view.mongo.CollectionGrid', {
 			columns: [{
 				xtype: 'treecolumn',
 				text: 'Keys',
-				/*iconCls : 'x-tree-icon x-fa fa-envelope',*/
 				dataIndex: 'key'
 			},{
 				text: 'Fields',
@@ -55,5 +62,17 @@ Ext.define('Mongo.view.mongo.CollectionGrid', {
 			}]
 		});
 		this.callParent();
+	},
+
+	initEvents : function()
+	{
+		this.on('rowcontextmenu', this.onItemContextMenu, this);
+		this.callParent(arguments)
+	},
+
+	onItemContextMenu : function(view, record, item, index, e, eOpts)
+	{
+		e.preventDefault();
+		
 	}
 });

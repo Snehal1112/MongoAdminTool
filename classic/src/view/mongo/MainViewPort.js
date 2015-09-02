@@ -9,15 +9,19 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
     /**
      * 
      */
+    requires : [
+        'Mongo.view.mongo.DBCollectionTreeListViewModel',
+        'Mongo.view.mongo.Request',
+        'Mongo.model.Role'
+    ],
+    /**
+     * 
+     */
     constructor : function(config)
     {
         config = config || {};
         Ext.applyIf(config,{
-            requires : [
-                'Mongo.view.mongo.DBCollectionTreeListViewModel',
-                'Mongo.view.mongo.Request',
-                'Mongo.model.Role'
-            ],
+            
             controller: 'tree-list',
 
             viewModel: {
@@ -30,6 +34,20 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
                 split: true,
                 reference: 'treelistContainer',
                 collapsible: true,
+                header: {
+                    items: [{
+                        xtype: 'button',
+                        text: 'Nav',
+                        enableToggle: true,
+                        reference: 'navBtn',
+                        toggleHandler: 'onToggleNav'
+                    },{
+                        xtype: 'button',
+                        text: 'Micro',
+                        enableToggle: true,
+                        toggleHandler: 'onToggleMicro'
+                    }]
+                },
                 layout: {
                     type: 'vbox',
                     align: 'stretch'
@@ -41,13 +59,16 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
             },{
                 region : 'center',
                 xtype : 'collectiongrid',
-                reference: 'collectionGrid',
+                title : {
+                    bind :{
+                        text : '{sdText}'
+                    }
+                },
                 bind : {
                     store : '{gridStore}'
                 }
             }]
         });
         this.callParent(arguments);
-        console.log(Mongo);
     }
 });

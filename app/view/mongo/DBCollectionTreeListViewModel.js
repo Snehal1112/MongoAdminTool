@@ -11,13 +11,14 @@ Ext.define('Mongo.view.mongo.DBCollectionTreeListViewModel', {
                 var selectedNode = selection.getQueryRoot();
                 var parentNode = selectedNode.parentNode;
                 if(!parentNode.isRoot()) {
-                    var options = {};
-                    options['params'] = {};
-                    options['params']['database'] = parentNode.get('text');
-                    options['params']['collection'] = selectedNode.get('text');
-                   this.getData().gridStore.load(options);
+                    var store = this.getData().gridStore;
+                    store.setDatabase(parentNode.get('text'));
+                    store.setCollection(selectedNode.get('text'));
+                    store.load();
+                    return Ext.String.capitalize(selectedNode.get('text'));
                 }
             }
+            return 'MongoDB Document';
         }
     },
 
@@ -25,6 +26,9 @@ Ext.define('Mongo.view.mongo.DBCollectionTreeListViewModel', {
      * 
      */
     stores: {
+        /**
+         * 
+         */
         treestores: {
             type : 'tree',
             root: {
@@ -41,16 +45,12 @@ Ext.define('Mongo.view.mongo.DBCollectionTreeListViewModel', {
                 direction: 'ASC'
             }]
         },
+
+        /**
+         * 
+         */
         gridStore :{
-            type : 'tree',
-            root: {
-                expanded: true
-            },
-            proxy: {
-                type : 'request',
-                moduleName : 'authenticate',
-                action : 'list'
-            }
+            type : 'documentstore'
         }
     }
 });

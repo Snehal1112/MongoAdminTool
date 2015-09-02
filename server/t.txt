@@ -1,6820 +1,1364 @@
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee58',
-  )),
-  'address' => 
-  array (
-    'building' => '1007',
-    'coord' => 
-    array (
-      0 => -73.856077,
-      1 => 40.848447,
-    ),
-    'street' => 'Morris Park Ave',
-    'zipcode' => '10462',
-  ),
-  'borough' => 'Bronx',
-  'cuisine' => 'Bakery',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1393804800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 2,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1378857600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 6,
-    ),
-    2 => 
-    array (
-      'grade' => 'A',
-      'score' => 10,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1358985600,
-         'usec' => 0,
-      )),
-    ),
-    3 => 
-    array (
-      'score' => 9,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1322006400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1299715200,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 14,
-    ),
-  ),
-  'name' => 'Morris Park Bake Shop',
-  'restaurant_id' => '30075445',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee59',
-  )),
-  'address' => 
-  array (
-    'coord' => 
-    array (
-      0 => -73.9851356,
-      1 => 40.7676919,
-    ),
-    'street' => 'West   57 Street',
-    'zipcode' => '10019',
-    'building' => '351',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'Irish',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1409961600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 2,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1374451200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    2 => 
-    array (
-      'score' => 12,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1343692800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1325116800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-  ),
-  'name' => 'Dj Reynolds Pub And Restaurant',
-  'restaurant_id' => '30191841',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee5a',
-  )),
-  'address' => 
-  array (
-    'building' => '469',
-    'coord' => 
-    array (
-      0 => -73.961704,
-      1 => 40.662942,
-    ),
-    'street' => 'Flatbush Avenue',
-    'zipcode' => '11225',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'Hamburgers',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1419897600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 8,
-    ),
-    1 => 
-    array (
-      'grade' => 'B',
-      'score' => 23,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1404172800,
-         'usec' => 0,
-      )),
-    ),
-    2 => 
-    array (
-      'score' => 12,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1367280000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1336435200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-  ),
-  'name' => 'Wendy\'S',
-  'restaurant_id' => '30112340',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee5b',
-  )),
-  'address' => 
-  array (
-    'building' => '8825',
-    'coord' => 
-    array (
-      0 => -73.8803827,
-      1 => 40.7643124,
-    ),
-    'street' => 'Astoria Boulevard',
-    'zipcode' => '11369',
-  ),
-  'borough' => 'Queens',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'grade' => 'Z',
-      'score' => 38,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1416009600,
-         'usec' => 0,
-      )),
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1398988800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1362182400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1328832000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-  ),
-  'name' => 'Brunos On The Boulevard',
-  'restaurant_id' => '40356151',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee5c',
-  )),
-  'address' => 
-  array (
-    'building' => '97-22',
-    'coord' => 
-    array (
-      0 => -73.8601152,
-      1 => 40.7311739,
-    ),
-    'street' => '63 Road',
-    'zipcode' => '11374',
-  ),
-  'borough' => 'Queens',
-  'cuisine' => 'Jewish/Kosher',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'score' => 20,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1416787200,
-         'usec' => 0,
-      )),
-      'grade' => 'Z',
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1358380800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-    2 => 
-    array (
-      'grade' => 'A',
-      'score' => 13,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1343865600,
-         'usec' => 0,
-      )),
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1323907200,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 25,
-    ),
-  ),
-  'name' => 'Tov Kosher Kitchen',
-  'restaurant_id' => '40356068',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee5d',
-  )),
-  'address' => 
-  array (
-    'street' => 'Stillwell Avenue',
-    'zipcode' => '11224',
-    'building' => '2780',
-    'coord' => 
-    array (
-      0 => -73.98242,
-      1 => 40.579505,
-    ),
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1402358400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 5,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1370390400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1334275200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1318377600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-  ),
-  'name' => 'Riviera Caterer',
-  'restaurant_id' => '40356018',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee5e',
-  )),
-  'address' => 
-  array (
-    'building' => '2206',
-    'coord' => 
-    array (
-      0 => -74.1377286,
-      1 => 40.6119572,
-    ),
-    'street' => 'Victory Boulevard',
-    'zipcode' => '10314',
-  ),
-  'borough' => 'Staten Island',
-  'cuisine' => 'Jewish/Kosher',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1412553600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    1 => 
-    array (
-      'grade' => 'A',
-      'score' => 12,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1400544000,
-         'usec' => 0,
-      )),
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1365033600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    3 => 
-    array (
-      'score' => 9,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1327363200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-  ),
-  'name' => 'Kosher Island',
-  'restaurant_id' => '40356442',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee5f',
-  )),
-  'address' => 
-  array (
-    'building' => '7114',
-    'coord' => 
-    array (
-      0 => -73.9068506,
-      1 => 40.6199034,
-    ),
-    'street' => 'Avenue U',
-    'zipcode' => '11234',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'Delicatessen',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1401321600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    1 => 
-    array (
-      'grade' => 'A',
-      'score' => 10,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1389657600,
-         'usec' => 0,
-      )),
-    ),
-    2 => 
-    array (
-      'score' => 8,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1375488000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1342569600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    4 => 
-    array (
-      'grade' => 'A',
-      'score' => 13,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1331251200,
-         'usec' => 0,
-      )),
-    ),
-    5 => 
-    array (
-      'score' => 9,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1318550400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-  ),
-  'name' => 'Wilken\'S Fine Food',
-  'restaurant_id' => '40356483',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee60',
-  )),
-  'address' => 
-  array (
-    'building' => '6409',
-    'coord' => 
-    array (
-      0 => -74.005289,
-      1 => 40.628886,
-    ),
-    'street' => '11 Avenue',
-    'zipcode' => '11219',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1405641600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1375142400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1360713600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1345075200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 2,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1313539200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-  ),
-  'name' => 'Regina Caterers',
-  'restaurant_id' => '40356649',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee61',
-  )),
-  'address' => 
-  array (
-    'building' => '1839',
-    'coord' => 
-    array (
-      0 => -73.9482609,
-      1 => 40.6408271,
-    ),
-    'street' => 'Nostrand Avenue',
-    'zipcode' => '11226',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'Ice Cream, Gelato, Yogurt, Ices',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1405296000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1373414400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 8,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1341964800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 5,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1329955200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 8,
-    ),
-  ),
-  'name' => 'Taste The Tropics Ice Cream',
-  'restaurant_id' => '40356731',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee62',
-  )),
-  'address' => 
-  array (
-    'zipcode' => '10460',
-    'building' => '2300',
-    'coord' => 
-    array (
-      0 => -73.8786113,
-      1 => 40.8502883,
-    ),
-    'street' => 'Southern Boulevard',
-  ),
-  'borough' => 'Bronx',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'grade' => 'A',
-      'score' => 11,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1401235200,
-         'usec' => 0,
-      )),
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1371600000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 4,
-    ),
-    2 => 
-    array (
-      'score' => 3,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1339718400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-  ),
-  'name' => 'Wild Asia',
-  'restaurant_id' => '40357217',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee63',
-  )),
-  'address' => 
-  array (
-    'building' => '7715',
-    'coord' => 
-    array (
-      0 => -73.9973325,
-      1 => 40.6117489,
-    ),
-    'street' => '18 Avenue',
-    'zipcode' => '11214',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1397606400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 5,
-    ),
-    1 => 
-    array (
-      'grade' => 'A',
-      'score' => 2,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1366675200,
-         'usec' => 0,
-      )),
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1335225600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 5,
-    ),
-    3 => 
-    array (
-      'score' => 2,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1323993600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-  ),
-  'name' => 'C & C Catering Service',
-  'restaurant_id' => '40357437',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee64',
-  )),
-  'address' => 
-  array (
-    'building' => '1',
-    'coord' => 
-    array (
-      0 => -73.9692691,
-      1 => 40.7685235,
-    ),
-    'street' => 'East   66 Street',
-    'zipcode' => '10065',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1399420800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 3,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1367539200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 4,
-    ),
-    2 => 
-    array (
-      'grade' => 'A',
-      'score' => 6,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1335744000,
-         'usec' => 0,
-      )),
-    ),
-    3 => 
-    array (
-      'score' => 0,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1324944000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-  ),
-  'name' => '1 East 66Th Street Kitchen',
-  'restaurant_id' => '40359480',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3372fd1d853ba9d93e22',
-  )),
-  'address' => 
-  array (
-    'street' => 'Broadway',
-    'zipcode' => '11414',
-    'building' => '42',
-    'coord' => 
-    array (
-      0 => -73.829487,
-      1 => 40.657432,
-    ),
-  ),
-  'borough' => 'Queens',
-  'cuisine' => 'Other',
-  'grades' => 
-  array (
-  ),
-  'name' => 'Laquana King',
-  'restaurant_id' => '50003441',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee65',
-  )),
-  'address' => 
-  array (
-    'building' => '1269',
-    'coord' => 
-    array (
-      0 => -73.871194,
-      1 => 40.6730975,
-    ),
-    'street' => 'Sutter Avenue',
-    'zipcode' => '11208',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'Chinese',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1410825600,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 21,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1377648000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1364860800,
-         'usec' => 0,
-      )),
-      'grade' => 'C',
-      'score' => 56,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1344988800,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 27,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1332892800,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 27,
-    ),
-  ),
-  'name' => 'May May Kitchen',
-  'restaurant_id' => '40358429',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee66',
-  )),
-  'address' => 
-  array (
-    'street' => 'Kings Highway',
-    'zipcode' => '11223',
-    'building' => '705',
-    'coord' => 
-    array (
-      0 => -73.9653967,
-      1 => 40.6064339,
-    ),
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'Jewish/Kosher',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1415577600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    1 => 
-    array (
-      'grade' => 'A',
-      'score' => 13,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1381363200,
-         'usec' => 0,
-      )),
-    ),
-    2 => 
-    array (
-      'score' => 7,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1349308800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1337558400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1325203200,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 19,
-    ),
-  ),
-  'name' => 'Seuda Foods',
-  'restaurant_id' => '40360045',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee67',
-  )),
-  'address' => 
-  array (
-    'coord' => 
-    array (
-      0 => -73.9782204,
-      1 => 40.6435254,
-    ),
-    'street' => 'Church Avenue',
-    'zipcode' => '11218',
-    'building' => '203',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'Ice Cream, Gelato, Yogurt, Ices',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'score' => 2,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1391990400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1357084800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1326067200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 3,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1320624000,
-         'usec' => 0,
-      )),
-      'grade' => 'P',
-      'score' => 12,
-    ),
-    4 => 
-    array (
-      'grade' => 'A',
-      'score' => 13,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1311206400,
-         'usec' => 0,
-      )),
-    ),
-  ),
-  'name' => 'Carvel Ice Cream',
-  'restaurant_id' => '40360076',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee68',
-  )),
-  'address' => 
-  array (
-    'zipcode' => '11209',
-    'building' => '6909',
-    'coord' => 
-    array (
-      0 => -74.0259567,
-      1 => 40.6353674,
-    ),
-    'street' => '3 Avenue',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'Delicatessen',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1408579200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 4,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1393977600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 3,
-    ),
-    2 => 
-    array (
-      'grade' => 'A',
-      'score' => 10,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1357776000,
-         'usec' => 0,
-      )),
-    ),
-  ),
-  'name' => 'Nordic Delicacies',
-  'restaurant_id' => '40361390',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee69',
-  )),
-  'address' => 
-  array (
-    'zipcode' => '11215',
-    'building' => '284',
-    'coord' => 
-    array (
-      0 => -73.9829239,
-      1 => 40.6580753,
-    ),
-    'street' => 'Prospect Park West',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1416355200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1384387200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 2,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1354665600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1337212800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-  ),
-  'name' => 'The Movable Feast',
-  'restaurant_id' => '40361606',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee6a',
-  )),
-  'address' => 
-  array (
-    'building' => '522',
-    'coord' => 
-    array (
-      0 => -73.95171,
-      1 => 40.767461,
-    ),
-    'street' => 'East   74 Street',
-    'zipcode' => '10021',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1409616000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1387411200,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 16,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1369699200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1354838400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-    4 => 
-    array (
-      'grade' => 'A',
-      'score' => 11,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1332979200,
-         'usec' => 0,
-      )),
-    ),
-  ),
-  'name' => 'Glorious Food',
-  'restaurant_id' => '40361521',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee6b',
-  )),
-  'address' => 
-  array (
-    'street' => 'Hillside Avenue',
-    'zipcode' => '11004',
-    'building' => '265-15',
-    'coord' => 
-    array (
-      0 => -73.7032601,
-      1 => 40.7386417,
-    ),
-  ),
-  'borough' => 'Queens',
-  'cuisine' => 'Ice Cream, Gelato, Yogurt, Ices',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1414454400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1379462400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1348099200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-  ),
-  'name' => 'Carvel Ice Cream',
-  'restaurant_id' => '40361322',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee6c',
-  )),
-  'address' => 
-  array (
-    'building' => '129-08',
-    'coord' => 
-    array (
-      0 => -73.839297,
-      1 => 40.78147,
-    ),
-    'street' => '20 Avenue',
-    'zipcode' => '11356',
-  ),
-  'borough' => 'Queens',
-  'cuisine' => 'Delicatessen',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1408147200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1377561600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1348099200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-    3 => 
-    array (
-      'grade' => 'A',
-      'score' => 10,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1317254400,
-         'usec' => 0,
-      )),
-    ),
-  ),
-  'name' => 'Sal\'S Deli',
-  'restaurant_id' => '40361618',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee6d',
-  )),
-  'address' => 
-  array (
-    'building' => '759',
-    'coord' => 
-    array (
-      0 => -73.9925306,
-      1 => 40.7309346,
-    ),
-    'street' => 'Broadway',
-    'zipcode' => '10003',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'Delicatessen',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1390262400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1357257600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1339027200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 6,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1326758400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 8,
-    ),
-  ),
-  'name' => 'Bully\'S Deli',
-  'restaurant_id' => '40361708',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee6e',
-  )),
-  'address' => 
-  array (
-    'coord' => 
-    array (
-      0 => -73.9402474,
-      1 => 40.7623288,
-    ),
-    'street' => '10 Street',
-    'zipcode' => '11106',
-    'building' => '3406',
-  ),
-  'borough' => 'Queens',
-  'cuisine' => 'Delicatessen',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'score' => 3,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1395187200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1363132800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    2 => 
-    array (
-      'grade' => 'A',
-      'score' => 8,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1332806400,
-         'usec' => 0,
-      )),
-    ),
-    3 => 
-    array (
-      'score' => 7,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1301961600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-  ),
-  'name' => 'Steve Chu\'S Deli & Grocery',
-  'restaurant_id' => '40361998',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee6f',
-  )),
-  'address' => 
-  array (
-    'building' => '502',
-    'coord' => 
-    array (
-      0 => -73.976112,
-      1 => 40.786714,
-    ),
-    'street' => 'Amsterdam Avenue',
-    'zipcode' => '10024',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'Chicken',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1410739200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1393891200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-    2 => 
-    array (
-      'grade' => 'A',
-      'score' => 13,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1374105600,
-         'usec' => 0,
-      )),
-    ),
-    3 => 
-    array (
-      'score' => 11,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1357689600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1334016000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    5 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1321315200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-  ),
-  'name' => 'Harriet\'S Kitchen',
-  'restaurant_id' => '40362098',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee70',
-  )),
-  'address' => 
-  array (
-    'building' => '730',
-    'coord' => 
-    array (
-      0 => -73.9680572,
-      1 => 40.7925587,
-    ),
-    'street' => 'Columbus Avenue',
-    'zipcode' => '10025',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'grade' => 'B',
-      'score' => 26,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1410480000,
-         'usec' => 0,
-      )),
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1377648000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    2 => 
-    array (
-      'score' => 20,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1364169600,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1329177600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-  ),
-  'name' => 'P & S Deli Grocery',
-  'restaurant_id' => '40362264',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee71',
-  )),
-  'address' => 
-  array (
-    'coord' => 
-    array (
-      0 => -74.0085357,
-      1 => 40.7062054,
-    ),
-    'street' => 'Wall Street',
-    'zipcode' => '10005',
-    'building' => '60',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'Turkish',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'score' => 9,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1411689600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1379462400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1348185600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    3 => 
-    array (
-      'grade' => 'A',
-      'score' => 11,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1336521600,
-         'usec' => 0,
-      )),
-    ),
-  ),
-  'name' => 'The Country Cafe',
-  'restaurant_id' => '40362715',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee72',
-  )),
-  'address' => 
-  array (
-    'zipcode' => '11205',
-    'building' => '531',
-    'coord' => 
-    array (
-      0 => -73.9634876,
-      1 => 40.6940001,
-    ),
-    'street' => 'Myrtle Avenue',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'Hamburgers',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'grade' => 'A',
-      'score' => 8,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1395100800,
-         'usec' => 0,
-      )),
-    ),
-    1 => 
-    array (
-      'score' => 8,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1363564800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1349827200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-    3 => 
-    array (
-      'grade' => 'A',
-      'score' => 2,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1316649600,
-         'usec' => 0,
-      )),
-    ),
-  ),
-  'name' => 'White Castle',
-  'restaurant_id' => '40362344',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee73',
-  )),
-  'address' => 
-  array (
-    'building' => '103-05',
-    'coord' => 
-    array (
-      0 => -73.8642349,
-      1 => 40.75356,
-    ),
-    'street' => '37 Avenue',
-    'zipcode' => '11368',
-  ),
-  'borough' => 'Queens',
-  'cuisine' => 'Chinese',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'score' => 10,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1398038400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1384214400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 5,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1370304000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1352851200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1349913600,
-         'usec' => 0,
-      )),
-      'grade' => 'P',
-      'score' => 0,
-    ),
-    5 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1337817600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-    6 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1323302400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    7 => 
-    array (
-      'grade' => 'A',
-      'score' => 11,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1311120000,
-         'usec' => 0,
-      )),
-    ),
-  ),
-  'name' => 'Ho Mei Restaurant',
-  'restaurant_id' => '40362432',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee74',
-  )),
-  'address' => 
-  array (
-    'building' => '18',
-    'coord' => 
-    array (
-      0 => -73.996984,
-      1 => 40.72589,
-    ),
-    'street' => 'West Houston Street',
-    'zipcode' => '10012',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1396483200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    1 => 
-    array (
-      'grade' => 'A',
-      'score' => 4,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1365120000,
-         'usec' => 0,
-      )),
-    ),
-    2 => 
-    array (
-      'score' => 13,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1332288000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1303862400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 5,
-    ),
-  ),
-  'name' => 'Angelika Film Center',
-  'restaurant_id' => '40362274',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee75',
-  )),
-  'address' => 
-  array (
-    'building' => '195',
-    'coord' => 
-    array (
-      0 => -73.9246028,
-      1 => 40.6522396,
-    ),
-    'street' => 'East   56 Street',
-    'zipcode' => '11203',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'Caribbean',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1399939200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 2,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1367971200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1348272000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1307318400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-  ),
-  'name' => 'Shashemene Int\'L Restaura',
-  'restaurant_id' => '40362869',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee76',
-  )),
-  'address' => 
-  array (
-    'building' => '56',
-    'coord' => 
-    array (
-      0 => -73.991495,
-      1 => 40.692273,
-    ),
-    'street' => 'Court Street',
-    'zipcode' => '11201',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'Donuts',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1419897600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 8,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1389744000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1357603200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1326931200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-  ),
-  'name' => 'Dunkin\' Donuts',
-  'restaurant_id' => '40363098',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee77',
-  )),
-  'address' => 
-  array (
-    'building' => '7615',
-    'coord' => 
-    array (
-      0 => -74.0228449,
-      1 => 40.6281815,
-    ),
-    'street' => '5 Avenue',
-    'zipcode' => '11209',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1417651200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1382572800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1366243200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 5,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1333584000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-  ),
-  'name' => 'Mejlander & Mulgannon',
-  'restaurant_id' => '40363117',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee78',
-  )),
-  'address' => 
-  array (
-    'building' => '107',
-    'coord' => 
-    array (
-      0 => -74.0092084,
-      1 => 40.7132925,
-    ),
-    'street' => 'Church Street',
-    'zipcode' => '10007',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1405641600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    1 => 
-    array (
-      'score' => 9,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1393372800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1377475200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1359676800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1326758400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-    5 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1318896000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-  ),
-  'name' => 'Downtown Deli',
-  'restaurant_id' => '40363021',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee79',
-  )),
-  'address' => 
-  array (
-    'building' => '1006',
-    'coord' => 
-    array (
-      0 => -73.8485687,
-      1 => 40.8903781,
-    ),
-    'street' => 'East 233 Street',
-    'zipcode' => '10466',
-  ),
-  'borough' => 'Bronx',
-  'cuisine' => 'Ice Cream, Gelato, Yogurt, Ices',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1398297600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1378339200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1361404800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1341273600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1310342400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 5,
-    ),
-  ),
-  'name' => 'Carvel Ice Cream',
-  'restaurant_id' => '40363093',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee7a',
-  )),
-  'address' => 
-  array (
-    'building' => '120',
-    'coord' => 
-    array (
-      0 => -73.9998042,
-      1 => 40.7251256,
-    ),
-    'street' => 'Prince Street',
-    'zipcode' => '10012',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'Bakery',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1413504000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1379462400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1367280000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1334880000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1324252800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 3,
-    ),
-  ),
-  'name' => 'Olive\'S',
-  'restaurant_id' => '40363151',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee7b',
-  )),
-  'address' => 
-  array (
-    'building' => '1236',
-    'coord' => 
-    array (
-      0 => -73.8893654,
-      1 => 40.8137618,
-    ),
-    'street' => '238 Spofford Ave',
-    'zipcode' => '10474',
-  ),
-  'borough' => 'Bronx',
-  'cuisine' => 'Chinese',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1388361600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 8,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1357603200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1339459200,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 15,
-    ),
-  ),
-  'name' => 'Happy Garden',
-  'restaurant_id' => '40363289',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee7c',
-  )),
-  'address' => 
-  array (
-    'zipcode' => '10018',
-    'building' => '625',
-    'coord' => 
-    array (
-      0 => -73.990494,
-      1 => 40.7569545,
-    ),
-    'street' => '8 Avenue',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1402272000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1389312000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1354838400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 4,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1323734400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1315526400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-  ),
-  'name' => 'Cafe Metro',
-  'restaurant_id' => '40363298',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee7d',
-  )),
-  'address' => 
-  array (
-    'building' => '1069',
-    'coord' => 
-    array (
-      0 => -73.902463,
-      1 => 40.694924,
-    ),
-    'street' => 'Wyckoff Avenue',
-    'zipcode' => '11385',
-  ),
-  'borough' => 'Queens',
-  'cuisine' => 'Delicatessen',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1399507200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1386806400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 8,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1371772800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1356307200,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 25,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1318982400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    5 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1308096000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-  ),
-  'name' => 'Tony\'S Deli',
-  'restaurant_id' => '40363333',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee7e',
-  )),
-  'address' => 
-  array (
-    'building' => '405',
-    'coord' => 
-    array (
-      0 => -73.97535,
-      1 => 40.7516269,
-    ),
-    'street' => 'Lexington Avenue',
-    'zipcode' => '10174',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'Sandwiches/Salads/Mixed Buffet',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1392940800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 3,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1379030400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 3,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1346112000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 0,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1315872000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1304380800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 5,
-    ),
-  ),
-  'name' => 'Lexler Deli',
-  'restaurant_id' => '40363426',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee7f',
-  )),
-  'address' => 
-  array (
-    'street' => 'Lefferts Boulevard',
-    'zipcode' => '11418',
-    'building' => '87-69',
-    'coord' => 
-    array (
-      0 => -73.8309503,
-      1 => 40.7001121,
-    ),
-  ),
-  'borough' => 'Queens',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1393286400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1376438400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1344297600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-    3 => 
-    array (
-      'grade' => 'A',
-      'score' => 10,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1332720000,
-         'usec' => 0,
-      )),
-    ),
-    4 => 
-    array (
-      'score' => 0,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1320364800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    5 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1309305600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 4,
-    ),
-  ),
-  'name' => 'Snack Time Grill',
-  'restaurant_id' => '40363590',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee80',
-  )),
-  'address' => 
-  array (
-    'building' => '2491',
-    'coord' => 
-    array (
-      0 => -74.1459332,
-      1 => 40.6103714,
-    ),
-    'street' => 'Victory Boulevard',
-    'zipcode' => '10314',
-  ),
-  'borough' => 'Staten Island',
-  'cuisine' => 'Delicatessen',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1420761600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 3,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1386201600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1371600000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1357603200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-  ),
-  'name' => 'Bagels N Buns',
-  'restaurant_id' => '40363427',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee81',
-  )),
-  'address' => 
-  array (
-    'building' => '7905',
-    'coord' => 
-    array (
-      0 => -73.8740217,
-      1 => 40.7135015,
-    ),
-    'street' => 'Metropolitan Avenue',
-    'zipcode' => '11379',
-  ),
-  'borough' => 'Queens',
-  'cuisine' => 'Bagels/Pretzels',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1410912000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    1 => 
-    array (
-      'grade' => 'B',
-      'score' => 23,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1389830400,
-         'usec' => 0,
-      )),
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1375833600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1361404800,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 27,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1340150400,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 27,
-    ),
-    5 => 
-    array (
-      'score' => 18,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1327968000,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-    ),
-  ),
-  'name' => 'Hot Bagels',
-  'restaurant_id' => '40363565',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee82',
-  )),
-  'address' => 
-  array (
-    'coord' => 
-    array (
-      0 => -73.9568502,
-      1 => 40.7753401,
-    ),
-    'street' => 'Third Avenue',
-    'zipcode' => '10028',
-    'building' => '1418',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'Continental',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'score' => 9,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1401667200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1388102400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 8,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1363564800,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 26,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1328054400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1309910400,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 25,
-    ),
-  ),
-  'name' => 'Lorenzo & Maria\'S',
-  'restaurant_id' => '40363630',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee83',
-  )),
-  'address' => 
-  array (
-    'building' => '437',
-    'coord' => 
-    array (
-      0 => -73.975393,
-      1 => 40.757365,
-    ),
-    'street' => 'Madison Avenue',
-    'zipcode' => '10022',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1401753600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1370563200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 5,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1340928000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    3 => 
-    array (
-      'grade' => 'A',
-      'score' => 11,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1328486400,
-         'usec' => 0,
-      )),
-    ),
-    4 => 
-    array (
-      'score' => 13,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1308787200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-  ),
-  'name' => 'Berkely',
-  'restaurant_id' => '40363685',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee84',
-  )),
-  'address' => 
-  array (
-    'building' => '976',
-    'coord' => 
-    array (
-      0 => -73.9270151,
-      1 => 40.6620192,
-    ),
-    'street' => 'Rutland Road',
-    'zipcode' => '11212',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'Chinese',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1398211200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1364256000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1331596800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 4,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1321401600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-  ),
-  'name' => 'Golden Pavillion',
-  'restaurant_id' => '40363920',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee85',
-  )),
-  'address' => 
-  array (
-    'coord' => 
-    array (
-      0 => -73.9791458,
-      1 => 40.744328,
-    ),
-    'street' => '3 Avenue',
-    'zipcode' => '10016',
-    'building' => '464',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'Pizza',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1407196800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 3,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1394064000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1373328000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1359504000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 4,
-    ),
-    4 => 
-    array (
-      'score' => 2,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1325721600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    5 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1316995200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 0,
-    ),
-  ),
-  'name' => 'Domino\'S Pizza',
-  'restaurant_id' => '40363644',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee86',
-  )),
-  'address' => 
-  array (
-    'building' => '1111',
-    'coord' => 
-    array (
-      0 => -74.0796436,
-      1 => 40.5987834,
-    ),
-    'street' => 'Hylan Boulevard',
-    'zipcode' => '10305',
-  ),
-  'borough' => 'Staten Island',
-  'cuisine' => 'Ice Cream, Gelato, Yogurt, Ices',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1398297600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1361836800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 5,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1328140800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 2,
-    ),
-  ),
-  'name' => 'Carvel Ice Cream',
-  'restaurant_id' => '40363834',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee87',
-  )),
-  'address' => 
-  array (
-    'building' => '364',
-    'coord' => 
-    array (
-      0 => -73.9608412,
-      1 => 40.8014307,
-    ),
-    'street' => 'West  110 Street',
-    'zipcode' => '10025',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1409788800,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 20,
-    ),
-    1 => 
-    array (
-      'score' => 23,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1393372800,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1364169600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1329782400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 8,
-    ),
-  ),
-  'name' => 'Spoon Bread Catering',
-  'restaurant_id' => '40364179',
-)
-[01-Sep-2015 18:38:27] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee88',
-  )),
-  'address' => 
-  array (
-    'coord' => 
-    array (
-      0 => -73.9806854,
-      1 => 40.7778589,
-    ),
-    'street' => 'West   72 Street',
-    'zipcode' => '10023',
-    'building' => '148',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'Pizza',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'score' => 13,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1417996800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1399248000,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 18,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1365120000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1333065600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-  ),
-  'name' => 'Domino\'S Pizza',
-  'restaurant_id' => '40363945',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee58',
-  )),
-  'address' => 
-  array (
-    'building' => '1007',
-    'coord' => 
-    array (
-      0 => -73.856077,
-      1 => 40.848447,
-    ),
-    'street' => 'Morris Park Ave',
-    'zipcode' => '10462',
-  ),
-  'borough' => 'Bronx',
-  'cuisine' => 'Bakery',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1393804800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 2,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1378857600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 6,
-    ),
-    2 => 
-    array (
-      'grade' => 'A',
-      'score' => 10,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1358985600,
-         'usec' => 0,
-      )),
-    ),
-    3 => 
-    array (
-      'score' => 9,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1322006400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1299715200,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 14,
-    ),
-  ),
-  'name' => 'Morris Park Bake Shop',
-  'restaurant_id' => '30075445',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee59',
-  )),
-  'address' => 
-  array (
-    'coord' => 
-    array (
-      0 => -73.9851356,
-      1 => 40.7676919,
-    ),
-    'street' => 'West   57 Street',
-    'zipcode' => '10019',
-    'building' => '351',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'Irish',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1409961600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 2,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1374451200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    2 => 
-    array (
-      'score' => 12,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1343692800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1325116800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-  ),
-  'name' => 'Dj Reynolds Pub And Restaurant',
-  'restaurant_id' => '30191841',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee5a',
-  )),
-  'address' => 
-  array (
-    'building' => '469',
-    'coord' => 
-    array (
-      0 => -73.961704,
-      1 => 40.662942,
-    ),
-    'street' => 'Flatbush Avenue',
-    'zipcode' => '11225',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'Hamburgers',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1419897600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 8,
-    ),
-    1 => 
-    array (
-      'grade' => 'B',
-      'score' => 23,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1404172800,
-         'usec' => 0,
-      )),
-    ),
-    2 => 
-    array (
-      'score' => 12,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1367280000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1336435200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-  ),
-  'name' => 'Wendy\'S',
-  'restaurant_id' => '30112340',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee5b',
-  )),
-  'address' => 
-  array (
-    'building' => '8825',
-    'coord' => 
-    array (
-      0 => -73.8803827,
-      1 => 40.7643124,
-    ),
-    'street' => 'Astoria Boulevard',
-    'zipcode' => '11369',
-  ),
-  'borough' => 'Queens',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'grade' => 'Z',
-      'score' => 38,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1416009600,
-         'usec' => 0,
-      )),
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1398988800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1362182400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1328832000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-  ),
-  'name' => 'Brunos On The Boulevard',
-  'restaurant_id' => '40356151',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee5c',
-  )),
-  'address' => 
-  array (
-    'building' => '97-22',
-    'coord' => 
-    array (
-      0 => -73.8601152,
-      1 => 40.7311739,
-    ),
-    'street' => '63 Road',
-    'zipcode' => '11374',
-  ),
-  'borough' => 'Queens',
-  'cuisine' => 'Jewish/Kosher',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'score' => 20,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1416787200,
-         'usec' => 0,
-      )),
-      'grade' => 'Z',
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1358380800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-    2 => 
-    array (
-      'grade' => 'A',
-      'score' => 13,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1343865600,
-         'usec' => 0,
-      )),
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1323907200,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 25,
-    ),
-  ),
-  'name' => 'Tov Kosher Kitchen',
-  'restaurant_id' => '40356068',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee5d',
-  )),
-  'address' => 
-  array (
-    'street' => 'Stillwell Avenue',
-    'zipcode' => '11224',
-    'building' => '2780',
-    'coord' => 
-    array (
-      0 => -73.98242,
-      1 => 40.579505,
-    ),
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1402358400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 5,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1370390400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1334275200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1318377600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-  ),
-  'name' => 'Riviera Caterer',
-  'restaurant_id' => '40356018',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee5e',
-  )),
-  'address' => 
-  array (
-    'building' => '2206',
-    'coord' => 
-    array (
-      0 => -74.1377286,
-      1 => 40.6119572,
-    ),
-    'street' => 'Victory Boulevard',
-    'zipcode' => '10314',
-  ),
-  'borough' => 'Staten Island',
-  'cuisine' => 'Jewish/Kosher',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1412553600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    1 => 
-    array (
-      'grade' => 'A',
-      'score' => 12,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1400544000,
-         'usec' => 0,
-      )),
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1365033600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    3 => 
-    array (
-      'score' => 9,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1327363200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-  ),
-  'name' => 'Kosher Island',
-  'restaurant_id' => '40356442',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee5f',
-  )),
-  'address' => 
-  array (
-    'building' => '7114',
-    'coord' => 
-    array (
-      0 => -73.9068506,
-      1 => 40.6199034,
-    ),
-    'street' => 'Avenue U',
-    'zipcode' => '11234',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'Delicatessen',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1401321600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    1 => 
-    array (
-      'grade' => 'A',
-      'score' => 10,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1389657600,
-         'usec' => 0,
-      )),
-    ),
-    2 => 
-    array (
-      'score' => 8,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1375488000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1342569600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    4 => 
-    array (
-      'grade' => 'A',
-      'score' => 13,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1331251200,
-         'usec' => 0,
-      )),
-    ),
-    5 => 
-    array (
-      'score' => 9,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1318550400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-  ),
-  'name' => 'Wilken\'S Fine Food',
-  'restaurant_id' => '40356483',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee60',
-  )),
-  'address' => 
-  array (
-    'building' => '6409',
-    'coord' => 
-    array (
-      0 => -74.005289,
-      1 => 40.628886,
-    ),
-    'street' => '11 Avenue',
-    'zipcode' => '11219',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1405641600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1375142400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1360713600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1345075200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 2,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1313539200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-  ),
-  'name' => 'Regina Caterers',
-  'restaurant_id' => '40356649',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee61',
-  )),
-  'address' => 
-  array (
-    'building' => '1839',
-    'coord' => 
-    array (
-      0 => -73.9482609,
-      1 => 40.6408271,
-    ),
-    'street' => 'Nostrand Avenue',
-    'zipcode' => '11226',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'Ice Cream, Gelato, Yogurt, Ices',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1405296000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1373414400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 8,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1341964800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 5,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1329955200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 8,
-    ),
-  ),
-  'name' => 'Taste The Tropics Ice Cream',
-  'restaurant_id' => '40356731',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee62',
-  )),
-  'address' => 
-  array (
-    'zipcode' => '10460',
-    'building' => '2300',
-    'coord' => 
-    array (
-      0 => -73.8786113,
-      1 => 40.8502883,
-    ),
-    'street' => 'Southern Boulevard',
-  ),
-  'borough' => 'Bronx',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'grade' => 'A',
-      'score' => 11,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1401235200,
-         'usec' => 0,
-      )),
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1371600000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 4,
-    ),
-    2 => 
-    array (
-      'score' => 3,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1339718400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-  ),
-  'name' => 'Wild Asia',
-  'restaurant_id' => '40357217',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee63',
-  )),
-  'address' => 
-  array (
-    'building' => '7715',
-    'coord' => 
-    array (
-      0 => -73.9973325,
-      1 => 40.6117489,
-    ),
-    'street' => '18 Avenue',
-    'zipcode' => '11214',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1397606400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 5,
-    ),
-    1 => 
-    array (
-      'grade' => 'A',
-      'score' => 2,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1366675200,
-         'usec' => 0,
-      )),
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1335225600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 5,
-    ),
-    3 => 
-    array (
-      'score' => 2,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1323993600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-  ),
-  'name' => 'C & C Catering Service',
-  'restaurant_id' => '40357437',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee64',
-  )),
-  'address' => 
-  array (
-    'building' => '1',
-    'coord' => 
-    array (
-      0 => -73.9692691,
-      1 => 40.7685235,
-    ),
-    'street' => 'East   66 Street',
-    'zipcode' => '10065',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1399420800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 3,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1367539200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 4,
-    ),
-    2 => 
-    array (
-      'grade' => 'A',
-      'score' => 6,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1335744000,
-         'usec' => 0,
-      )),
-    ),
-    3 => 
-    array (
-      'score' => 0,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1324944000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-  ),
-  'name' => '1 East 66Th Street Kitchen',
-  'restaurant_id' => '40359480',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3372fd1d853ba9d93e22',
-  )),
-  'address' => 
-  array (
-    'street' => 'Broadway',
-    'zipcode' => '11414',
-    'building' => '42',
-    'coord' => 
-    array (
-      0 => -73.829487,
-      1 => 40.657432,
-    ),
-  ),
-  'borough' => 'Queens',
-  'cuisine' => 'Other',
-  'grades' => 
-  array (
-  ),
-  'name' => 'Laquana King',
-  'restaurant_id' => '50003441',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee65',
-  )),
-  'address' => 
-  array (
-    'building' => '1269',
-    'coord' => 
-    array (
-      0 => -73.871194,
-      1 => 40.6730975,
-    ),
-    'street' => 'Sutter Avenue',
-    'zipcode' => '11208',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'Chinese',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1410825600,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 21,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1377648000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1364860800,
-         'usec' => 0,
-      )),
-      'grade' => 'C',
-      'score' => 56,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1344988800,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 27,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1332892800,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 27,
-    ),
-  ),
-  'name' => 'May May Kitchen',
-  'restaurant_id' => '40358429',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee66',
-  )),
-  'address' => 
-  array (
-    'street' => 'Kings Highway',
-    'zipcode' => '11223',
-    'building' => '705',
-    'coord' => 
-    array (
-      0 => -73.9653967,
-      1 => 40.6064339,
-    ),
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'Jewish/Kosher',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1415577600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    1 => 
-    array (
-      'grade' => 'A',
-      'score' => 13,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1381363200,
-         'usec' => 0,
-      )),
-    ),
-    2 => 
-    array (
-      'score' => 7,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1349308800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1337558400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1325203200,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 19,
-    ),
-  ),
-  'name' => 'Seuda Foods',
-  'restaurant_id' => '40360045',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee67',
-  )),
-  'address' => 
-  array (
-    'coord' => 
-    array (
-      0 => -73.9782204,
-      1 => 40.6435254,
-    ),
-    'street' => 'Church Avenue',
-    'zipcode' => '11218',
-    'building' => '203',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'Ice Cream, Gelato, Yogurt, Ices',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'score' => 2,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1391990400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1357084800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1326067200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 3,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1320624000,
-         'usec' => 0,
-      )),
-      'grade' => 'P',
-      'score' => 12,
-    ),
-    4 => 
-    array (
-      'grade' => 'A',
-      'score' => 13,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1311206400,
-         'usec' => 0,
-      )),
-    ),
-  ),
-  'name' => 'Carvel Ice Cream',
-  'restaurant_id' => '40360076',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee68',
-  )),
-  'address' => 
-  array (
-    'zipcode' => '11209',
-    'building' => '6909',
-    'coord' => 
-    array (
-      0 => -74.0259567,
-      1 => 40.6353674,
-    ),
-    'street' => '3 Avenue',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'Delicatessen',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1408579200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 4,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1393977600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 3,
-    ),
-    2 => 
-    array (
-      'grade' => 'A',
-      'score' => 10,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1357776000,
-         'usec' => 0,
-      )),
-    ),
-  ),
-  'name' => 'Nordic Delicacies',
-  'restaurant_id' => '40361390',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee69',
-  )),
-  'address' => 
-  array (
-    'zipcode' => '11215',
-    'building' => '284',
-    'coord' => 
-    array (
-      0 => -73.9829239,
-      1 => 40.6580753,
-    ),
-    'street' => 'Prospect Park West',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1416355200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1384387200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 2,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1354665600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1337212800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-  ),
-  'name' => 'The Movable Feast',
-  'restaurant_id' => '40361606',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee6a',
-  )),
-  'address' => 
-  array (
-    'building' => '522',
-    'coord' => 
-    array (
-      0 => -73.95171,
-      1 => 40.767461,
-    ),
-    'street' => 'East   74 Street',
-    'zipcode' => '10021',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1409616000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1387411200,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 16,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1369699200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1354838400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-    4 => 
-    array (
-      'grade' => 'A',
-      'score' => 11,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1332979200,
-         'usec' => 0,
-      )),
-    ),
-  ),
-  'name' => 'Glorious Food',
-  'restaurant_id' => '40361521',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee6b',
-  )),
-  'address' => 
-  array (
-    'street' => 'Hillside Avenue',
-    'zipcode' => '11004',
-    'building' => '265-15',
-    'coord' => 
-    array (
-      0 => -73.7032601,
-      1 => 40.7386417,
-    ),
-  ),
-  'borough' => 'Queens',
-  'cuisine' => 'Ice Cream, Gelato, Yogurt, Ices',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1414454400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1379462400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1348099200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-  ),
-  'name' => 'Carvel Ice Cream',
-  'restaurant_id' => '40361322',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee6c',
-  )),
-  'address' => 
-  array (
-    'building' => '129-08',
-    'coord' => 
-    array (
-      0 => -73.839297,
-      1 => 40.78147,
-    ),
-    'street' => '20 Avenue',
-    'zipcode' => '11356',
-  ),
-  'borough' => 'Queens',
-  'cuisine' => 'Delicatessen',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1408147200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1377561600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1348099200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-    3 => 
-    array (
-      'grade' => 'A',
-      'score' => 10,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1317254400,
-         'usec' => 0,
-      )),
-    ),
-  ),
-  'name' => 'Sal\'S Deli',
-  'restaurant_id' => '40361618',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee6d',
-  )),
-  'address' => 
-  array (
-    'building' => '759',
-    'coord' => 
-    array (
-      0 => -73.9925306,
-      1 => 40.7309346,
-    ),
-    'street' => 'Broadway',
-    'zipcode' => '10003',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'Delicatessen',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1390262400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1357257600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1339027200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 6,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1326758400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 8,
-    ),
-  ),
-  'name' => 'Bully\'S Deli',
-  'restaurant_id' => '40361708',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee6e',
-  )),
-  'address' => 
-  array (
-    'coord' => 
-    array (
-      0 => -73.9402474,
-      1 => 40.7623288,
-    ),
-    'street' => '10 Street',
-    'zipcode' => '11106',
-    'building' => '3406',
-  ),
-  'borough' => 'Queens',
-  'cuisine' => 'Delicatessen',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'score' => 3,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1395187200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1363132800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    2 => 
-    array (
-      'grade' => 'A',
-      'score' => 8,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1332806400,
-         'usec' => 0,
-      )),
-    ),
-    3 => 
-    array (
-      'score' => 7,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1301961600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-  ),
-  'name' => 'Steve Chu\'S Deli & Grocery',
-  'restaurant_id' => '40361998',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee6f',
-  )),
-  'address' => 
-  array (
-    'building' => '502',
-    'coord' => 
-    array (
-      0 => -73.976112,
-      1 => 40.786714,
-    ),
-    'street' => 'Amsterdam Avenue',
-    'zipcode' => '10024',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'Chicken',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1410739200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1393891200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-    2 => 
-    array (
-      'grade' => 'A',
-      'score' => 13,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1374105600,
-         'usec' => 0,
-      )),
-    ),
-    3 => 
-    array (
-      'score' => 11,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1357689600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1334016000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    5 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1321315200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-  ),
-  'name' => 'Harriet\'S Kitchen',
-  'restaurant_id' => '40362098',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee70',
-  )),
-  'address' => 
-  array (
-    'building' => '730',
-    'coord' => 
-    array (
-      0 => -73.9680572,
-      1 => 40.7925587,
-    ),
-    'street' => 'Columbus Avenue',
-    'zipcode' => '10025',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'grade' => 'B',
-      'score' => 26,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1410480000,
-         'usec' => 0,
-      )),
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1377648000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    2 => 
-    array (
-      'score' => 20,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1364169600,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1329177600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-  ),
-  'name' => 'P & S Deli Grocery',
-  'restaurant_id' => '40362264',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee71',
-  )),
-  'address' => 
-  array (
-    'coord' => 
-    array (
-      0 => -74.0085357,
-      1 => 40.7062054,
-    ),
-    'street' => 'Wall Street',
-    'zipcode' => '10005',
-    'building' => '60',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'Turkish',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'score' => 9,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1411689600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1379462400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1348185600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    3 => 
-    array (
-      'grade' => 'A',
-      'score' => 11,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1336521600,
-         'usec' => 0,
-      )),
-    ),
-  ),
-  'name' => 'The Country Cafe',
-  'restaurant_id' => '40362715',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee72',
-  )),
-  'address' => 
-  array (
-    'zipcode' => '11205',
-    'building' => '531',
-    'coord' => 
-    array (
-      0 => -73.9634876,
-      1 => 40.6940001,
-    ),
-    'street' => 'Myrtle Avenue',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'Hamburgers',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'grade' => 'A',
-      'score' => 8,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1395100800,
-         'usec' => 0,
-      )),
-    ),
-    1 => 
-    array (
-      'score' => 8,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1363564800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1349827200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-    3 => 
-    array (
-      'grade' => 'A',
-      'score' => 2,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1316649600,
-         'usec' => 0,
-      )),
-    ),
-  ),
-  'name' => 'White Castle',
-  'restaurant_id' => '40362344',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee73',
-  )),
-  'address' => 
-  array (
-    'building' => '103-05',
-    'coord' => 
-    array (
-      0 => -73.8642349,
-      1 => 40.75356,
-    ),
-    'street' => '37 Avenue',
-    'zipcode' => '11368',
-  ),
-  'borough' => 'Queens',
-  'cuisine' => 'Chinese',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'score' => 10,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1398038400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1384214400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 5,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1370304000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1352851200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1349913600,
-         'usec' => 0,
-      )),
-      'grade' => 'P',
-      'score' => 0,
-    ),
-    5 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1337817600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-    6 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1323302400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    7 => 
-    array (
-      'grade' => 'A',
-      'score' => 11,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1311120000,
-         'usec' => 0,
-      )),
-    ),
-  ),
-  'name' => 'Ho Mei Restaurant',
-  'restaurant_id' => '40362432',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee74',
-  )),
-  'address' => 
-  array (
-    'building' => '18',
-    'coord' => 
-    array (
-      0 => -73.996984,
-      1 => 40.72589,
-    ),
-    'street' => 'West Houston Street',
-    'zipcode' => '10012',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1396483200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    1 => 
-    array (
-      'grade' => 'A',
-      'score' => 4,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1365120000,
-         'usec' => 0,
-      )),
-    ),
-    2 => 
-    array (
-      'score' => 13,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1332288000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1303862400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 5,
-    ),
-  ),
-  'name' => 'Angelika Film Center',
-  'restaurant_id' => '40362274',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee75',
-  )),
-  'address' => 
-  array (
-    'building' => '195',
-    'coord' => 
-    array (
-      0 => -73.9246028,
-      1 => 40.6522396,
-    ),
-    'street' => 'East   56 Street',
-    'zipcode' => '11203',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'Caribbean',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1399939200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 2,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1367971200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1348272000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1307318400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-  ),
-  'name' => 'Shashemene Int\'L Restaura',
-  'restaurant_id' => '40362869',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee76',
-  )),
-  'address' => 
-  array (
-    'building' => '56',
-    'coord' => 
-    array (
-      0 => -73.991495,
-      1 => 40.692273,
-    ),
-    'street' => 'Court Street',
-    'zipcode' => '11201',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'Donuts',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1419897600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 8,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1389744000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1357603200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1326931200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-  ),
-  'name' => 'Dunkin\' Donuts',
-  'restaurant_id' => '40363098',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee77',
-  )),
-  'address' => 
-  array (
-    'building' => '7615',
-    'coord' => 
-    array (
-      0 => -74.0228449,
-      1 => 40.6281815,
-    ),
-    'street' => '5 Avenue',
-    'zipcode' => '11209',
-  ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1417651200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1382572800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1366243200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 5,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1333584000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-  ),
-  'name' => 'Mejlander & Mulgannon',
-  'restaurant_id' => '40363117',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee78',
-  )),
-  'address' => 
-  array (
-    'building' => '107',
-    'coord' => 
-    array (
-      0 => -74.0092084,
-      1 => 40.7132925,
-    ),
-    'street' => 'Church Street',
-    'zipcode' => '10007',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1405641600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    1 => 
-    array (
-      'score' => 9,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1393372800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1377475200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1359676800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1326758400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-    5 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1318896000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-  ),
-  'name' => 'Downtown Deli',
-  'restaurant_id' => '40363021',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee79',
-  )),
-  'address' => 
-  array (
-    'building' => '1006',
-    'coord' => 
-    array (
-      0 => -73.8485687,
-      1 => 40.8903781,
-    ),
-    'street' => 'East 233 Street',
-    'zipcode' => '10466',
-  ),
-  'borough' => 'Bronx',
-  'cuisine' => 'Ice Cream, Gelato, Yogurt, Ices',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1398297600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1378339200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1361404800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1341273600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1310342400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 5,
-    ),
-  ),
-  'name' => 'Carvel Ice Cream',
-  'restaurant_id' => '40363093',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee7a',
-  )),
-  'address' => 
-  array (
-    'building' => '120',
-    'coord' => 
-    array (
-      0 => -73.9998042,
-      1 => 40.7251256,
-    ),
-    'street' => 'Prince Street',
-    'zipcode' => '10012',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'Bakery',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1413504000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1379462400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1367280000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1334880000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1324252800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 3,
-    ),
-  ),
-  'name' => 'Olive\'S',
-  'restaurant_id' => '40363151',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee7b',
-  )),
-  'address' => 
-  array (
-    'building' => '1236',
-    'coord' => 
-    array (
-      0 => -73.8893654,
-      1 => 40.8137618,
-    ),
-    'street' => '238 Spofford Ave',
-    'zipcode' => '10474',
-  ),
-  'borough' => 'Bronx',
-  'cuisine' => 'Chinese',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1388361600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 8,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1357603200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1339459200,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 15,
-    ),
-  ),
-  'name' => 'Happy Garden',
-  'restaurant_id' => '40363289',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee7c',
-  )),
-  'address' => 
-  array (
-    'zipcode' => '10018',
-    'building' => '625',
-    'coord' => 
-    array (
-      0 => -73.990494,
-      1 => 40.7569545,
-    ),
-    'street' => '8 Avenue',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1402272000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1389312000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1354838400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 4,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1323734400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1315526400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-  ),
-  'name' => 'Cafe Metro',
-  'restaurant_id' => '40363298',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee7d',
-  )),
-  'address' => 
-  array (
-    'building' => '1069',
-    'coord' => 
-    array (
-      0 => -73.902463,
-      1 => 40.694924,
-    ),
-    'street' => 'Wyckoff Avenue',
-    'zipcode' => '11385',
-  ),
-  'borough' => 'Queens',
-  'cuisine' => 'Delicatessen',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1399507200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1386806400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 8,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1371772800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1356307200,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 25,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1318982400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    5 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1308096000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-  ),
-  'name' => 'Tony\'S Deli',
-  'restaurant_id' => '40363333',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee7e',
-  )),
-  'address' => 
-  array (
-    'building' => '405',
-    'coord' => 
-    array (
-      0 => -73.97535,
-      1 => 40.7516269,
-    ),
-    'street' => 'Lexington Avenue',
-    'zipcode' => '10174',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'Sandwiches/Salads/Mixed Buffet',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1392940800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 3,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1379030400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 3,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1346112000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 0,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1315872000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1304380800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 5,
-    ),
-  ),
-  'name' => 'Lexler Deli',
-  'restaurant_id' => '40363426',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee7f',
-  )),
-  'address' => 
-  array (
-    'street' => 'Lefferts Boulevard',
-    'zipcode' => '11418',
-    'building' => '87-69',
-    'coord' => 
-    array (
-      0 => -73.8309503,
-      1 => 40.7001121,
-    ),
-  ),
-  'borough' => 'Queens',
-  'cuisine' => 'American ',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1393286400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1376438400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1344297600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-    3 => 
-    array (
-      'grade' => 'A',
-      'score' => 10,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1332720000,
-         'usec' => 0,
-      )),
-    ),
-    4 => 
-    array (
-      'score' => 0,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1320364800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    5 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1309305600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 4,
-    ),
-  ),
-  'name' => 'Snack Time Grill',
-  'restaurant_id' => '40363590',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee80',
-  )),
-  'address' => 
-  array (
-    'building' => '2491',
-    'coord' => 
-    array (
-      0 => -74.1459332,
-      1 => 40.6103714,
-    ),
-    'street' => 'Victory Boulevard',
-    'zipcode' => '10314',
-  ),
-  'borough' => 'Staten Island',
-  'cuisine' => 'Delicatessen',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1420761600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 3,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1386201600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1371600000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1357603200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-  ),
-  'name' => 'Bagels N Buns',
-  'restaurant_id' => '40363427',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee81',
-  )),
-  'address' => 
-  array (
-    'building' => '7905',
-    'coord' => 
-    array (
-      0 => -73.8740217,
-      1 => 40.7135015,
-    ),
-    'street' => 'Metropolitan Avenue',
-    'zipcode' => '11379',
-  ),
-  'borough' => 'Queens',
-  'cuisine' => 'Bagels/Pretzels',
-  'grades' => 
-  array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1410912000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    1 => 
-    array (
-      'grade' => 'B',
-      'score' => 23,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1389830400,
-         'usec' => 0,
-      )),
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1375833600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1361404800,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 27,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1340150400,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 27,
-    ),
-    5 => 
-    array (
-      'score' => 18,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1327968000,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-    ),
-  ),
-  'name' => 'Hot Bagels',
-  'restaurant_id' => '40363565',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee82',
-  )),
-  'address' => 
-  array (
-    'coord' => 
-    array (
-      0 => -73.9568502,
-      1 => 40.7753401,
-    ),
-    'street' => 'Third Avenue',
-    'zipcode' => '10028',
-    'building' => '1418',
-  ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'Continental',
-  'grades' => 
+[02-Sep-2015 13:06:27] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 13:06:38] $action - array (
+  'page' => 2,
+  'start' => 25,
+  'limit' => 25,
+  'node' => 'root',
+)
+[02-Sep-2015 13:06:44] $action - array (
+  'page' => 3,
+  'start' => 50,
+  'limit' => 25,
+  'node' => 'root',
+)
+[02-Sep-2015 13:06:50] $action - array (
+  'page' => 4,
+  'start' => 75,
+  'limit' => 25,
+  'node' => 'root',
+)
+[02-Sep-2015 13:06:56] $action - array (
+  'page' => 5,
+  'start' => 100,
+  'limit' => 25,
+  'node' => 'root',
+)
+[02-Sep-2015 13:07:01] $action - array (
+  'page' => 1015,
+  'start' => 25350,
+  'limit' => 25,
+  'node' => 'root',
+)
+[02-Sep-2015 13:07:07] $action - array (
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 13:07:07] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'node' => 'root',
+)
+[02-Sep-2015 13:07:18] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 13:07:23] $action - array (
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 13:07:26] $action - array (
+  'database' => 'party_board',
+  'collection' => 'users',
+  'node' => 'root',
+)
+[02-Sep-2015 13:07:29] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 13:07:31] $action - array (
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 13:07:42] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 13:37:35] $action - array (
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 13:37:42] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 13:37:45] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 13:37:47] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'node' => 'root',
+)
+[02-Sep-2015 13:38:24] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'node' => 'root',
+)
+[02-Sep-2015 13:38:32] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 13:38:35] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 13:38:36] $action - array (
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 13:38:37] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 13:38:57] $action - array (
+  'page' => 2,
+  'start' => 25,
+  'limit' => 25,
+  'node' => 'root',
+)
+[02-Sep-2015 13:57:48] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:01:33] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:02:33] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:06:34] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:07:30] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:08:41] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:11:02] $action - array (
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 14:11:07] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 14:11:29] $action - array (
+  'page' => 2,
+  'start' => 25,
+  'limit' => 25,
+  'node' => 'root',
+)
+[02-Sep-2015 14:17:35] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:17:49] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:18:24] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:18:39] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:18:45] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:19:39] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:20:06] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:20:21] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:20:26] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:20:28] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:20:49] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:21:44] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:22:07] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:25:00] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:25:14] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:25:18] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:26:33] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:28:21] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:28:33] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:28:33] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:28:34] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:28:34] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:28:41] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:28:45] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:29:11] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:30:37] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:32:32] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:34:31] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:35:44] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:36:27] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:38:45] $action - array (
+  'database' => 'party_board',
+  'collection' => 'users',
+  'node' => 'root',
+)
+[02-Sep-2015 14:39:42] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:39:59] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:40:18] $action - array (
+  'database' => 'party_board',
+  'collection' => 'users',
+  'node' => 'root',
+)
+[02-Sep-2015 14:40:20] $action - array (
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 14:40:23] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 14:40:28] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 14:40:31] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 14:40:44] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 14:40:50] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 14:41:24] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 14:42:33] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 14:46:44] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:48:27] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:48:47] $action - array (
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 14:48:53] $action - array (
+  'database' => 'party_board',
+  'collection' => 'users',
+  'node' => 'root',
+)
+[02-Sep-2015 14:50:15] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:50:29] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 14:50:37] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 14:53:27] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:54:28] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 14:56:08] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 14:56:33] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 14:57:30] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 15:00:18] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 15:00:41] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 15:01:35] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 15:01:47] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 15:01:52] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 15:01:57] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 15:04:34] $action - array (
+  'node' => 
   array (
-    0 => 
-    array (
-      'score' => 9,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1401667200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1388102400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 8,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1363564800,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 26,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1328054400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 7,
-    ),
-    4 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1309910400,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 25,
-    ),
+    'page' => 3,
+    'start' => 50,
+    'limit' => 25,
+    'addRecords' => false,
   ),
-  'name' => 'Lorenzo & Maria\'S',
-  'restaurant_id' => '40363630',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee83',
-  )),
-  'address' => 
+)
+[02-Sep-2015 15:30:06] $action - array (
+  'node' => 
   array (
-    'building' => '437',
-    'coord' => 
-    array (
-      0 => -73.975393,
-      1 => 40.757365,
-    ),
-    'street' => 'Madison Avenue',
-    'zipcode' => '10022',
   ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'American ',
-  'grades' => 
+)
+[02-Sep-2015 15:30:33] $action - array (
+  'node' => 
   array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1401753600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1370563200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 5,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1340928000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    3 => 
-    array (
-      'grade' => 'A',
-      'score' => 11,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1328486400,
-         'usec' => 0,
-      )),
-    ),
-    4 => 
-    array (
-      'score' => 13,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1308787200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
   ),
-  'name' => 'Berkely',
-  'restaurant_id' => '40363685',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee84',
-  )),
-  'address' => 
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+)
+[02-Sep-2015 15:30:47] $action - array (
+  'node' => 
   array (
-    'building' => '976',
-    'coord' => 
-    array (
-      0 => -73.9270151,
-      1 => 40.6620192,
-    ),
-    'street' => 'Rutland Road',
-    'zipcode' => '11212',
   ),
-  'borough' => 'Brooklyn',
-  'cuisine' => 'Chinese',
-  'grades' => 
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+)
+[02-Sep-2015 15:31:47] $action - array (
+  'node' => 
   array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1398211200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1364256000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 10,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1331596800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 4,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1321401600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
   ),
-  'name' => 'Golden Pavillion',
-  'restaurant_id' => '40363920',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee85',
-  )),
-  'address' => 
+)
+[02-Sep-2015 15:31:58] $action - array (
+  'node' => 
   array (
-    'coord' => 
-    array (
-      0 => -73.9791458,
-      1 => 40.744328,
-    ),
-    'street' => '3 Avenue',
-    'zipcode' => '10016',
-    'building' => '464',
   ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'Pizza',
-  'grades' => 
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+)
+[02-Sep-2015 15:36:13] $action - array (
+  'node' => 
   array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1407196800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 3,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1394064000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 11,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1373328000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1359504000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 4,
-    ),
-    4 => 
-    array (
-      'score' => 2,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1325721600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    5 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1316995200,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 0,
-    ),
   ),
-  'name' => 'Domino\'S Pizza',
-  'restaurant_id' => '40363644',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee86',
-  )),
-  'address' => 
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+)
+[02-Sep-2015 15:36:27] $action - array (
+  'node' => 
   array (
-    'building' => '1111',
-    'coord' => 
-    array (
-      0 => -74.0796436,
-      1 => 40.5987834,
-    ),
-    'street' => 'Hylan Boulevard',
-    'zipcode' => '10305',
   ),
-  'borough' => 'Staten Island',
-  'cuisine' => 'Ice Cream, Gelato, Yogurt, Ices',
-  'grades' => 
+)
+[02-Sep-2015 15:40:35] $action - array (
+  'node' => 
   array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1398297600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1361836800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 5,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1328140800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 2,
-    ),
   ),
-  'name' => 'Carvel Ice Cream',
-  'restaurant_id' => '40363834',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee87',
-  )),
-  'address' => 
+)
+[02-Sep-2015 15:40:56] $action - array (
+  'node' => 
   array (
-    'building' => '364',
-    'coord' => 
-    array (
-      0 => -73.9608412,
-      1 => 40.8014307,
-    ),
-    'street' => 'West  110 Street',
-    'zipcode' => '10025',
   ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'American ',
-  'grades' => 
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+)
+[02-Sep-2015 15:41:09] $action - array (
+  'node' => 
   array (
-    0 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1409788800,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 20,
-    ),
-    1 => 
-    array (
-      'score' => 23,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1393372800,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1364169600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 12,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1329782400,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 8,
-    ),
+    'page' => 2,
+    'start' => 25,
+    'limit' => 25,
+    'addRecords' => false,
   ),
-  'name' => 'Spoon Bread Catering',
-  'restaurant_id' => '40364179',
-)
-[01-Sep-2015 18:47:18] $document - array (
-  '_id' => 
-  MongoId::__set_state(array(
-     '$id' => '55dc3371fd1d853ba9d8ee88',
-  )),
-  'address' => 
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+)
+[02-Sep-2015 15:41:18] $action - array (
+  'node' => 
   array (
-    'coord' => 
-    array (
-      0 => -73.9806854,
-      1 => 40.7778589,
-    ),
-    'street' => 'West   72 Street',
-    'zipcode' => '10023',
-    'building' => '148',
+    'page' => 3,
+    'start' => 50,
+    'limit' => 25,
+    'addRecords' => false,
   ),
-  'borough' => 'Manhattan',
-  'cuisine' => 'Pizza',
-  'grades' => 
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+)
+[02-Sep-2015 15:41:27] $action - array (
+  'node' => 
   array (
-    0 => 
-    array (
-      'score' => 13,
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1417996800,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-    ),
-    1 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1399248000,
-         'usec' => 0,
-      )),
-      'grade' => 'B',
-      'score' => 18,
-    ),
-    2 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1365120000,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 13,
-    ),
-    3 => 
-    array (
-      'date' => 
-      MongoDate::__set_state(array(
-         'sec' => 1333065600,
-         'usec' => 0,
-      )),
-      'grade' => 'A',
-      'score' => 9,
-    ),
+    'page' => 1015,
+    'start' => 25350,
+    'limit' => 25,
+    'addRecords' => false,
   ),
-  'name' => 'Domino\'S Pizza',
-  'restaurant_id' => '40363945',
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+)
+[02-Sep-2015 15:42:13] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 15:42:17] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 15:42:32] $action - array (
+  'page' => 2,
+  'start' => 25,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 15:42:42] $action - array (
+  'page' => 3,
+  'start' => 50,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 15:42:47] $action - array (
+  'page' => 1015,
+  'start' => 25350,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 15:42:50] $action - array (
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 15:42:50] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 15:42:54] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 15:42:56] $action - array (
+  'page' => 3,
+  'start' => 50,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 15:42:59] $action - array (
+  'database' => 'party_board',
+  'collection' => 'users',
+  'node' => 'root',
+)
+[02-Sep-2015 15:42:59] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'users',
+  'node' => 'root',
+)
+[02-Sep-2015 15:43:05] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 15:43:08] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 15:43:08] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 15:43:09] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 15:43:09] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 15:43:09] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 15:43:09] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 15:43:11] $action - array (
+  'page' => 2,
+  'start' => 25,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 15:43:14] $action - array (
+  'database' => 'local',
+  'collection' => 'startup_log',
+  'node' => 'root',
+)
+[02-Sep-2015 15:43:18] $action - array (
+  'database' => 'test',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 15:43:21] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 15:43:23] $action - array (
+  'database' => 'party_board',
+  'collection' => 'users',
+  'node' => 'root',
+)
+[02-Sep-2015 15:43:23] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'users',
+  'node' => 'root',
+)
+[02-Sep-2015 15:43:25] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 15:43:25] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 15:43:29] $action - array (
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 15:43:30] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 15:43:32] $action - array (
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 15:43:35] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 15:43:39] $action - array (
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 15:43:40] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 15:43:42] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 15:44:53] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 15:45:36] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 15:45:39] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 15:45:42] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 15:45:44] $action - array (
+  'database' => 'party_board',
+  'collection' => 'users',
+  'node' => 'root',
+)
+[02-Sep-2015 15:46:22] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 15:54:45] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 15:54:56] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 15:54:58] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'node' => 'root',
+)
+[02-Sep-2015 15:55:00] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'node' => 'root',
+)
+[02-Sep-2015 15:55:01] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'node' => 'root',
+)
+[02-Sep-2015 15:55:01] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'node' => 'root',
+)
+[02-Sep-2015 15:55:04] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 15:55:21] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 15:55:30] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 15:55:44] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'node' => 'root',
+)
+[02-Sep-2015 15:56:16] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 15:56:37] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 15:58:12] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 15:58:53] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 15:59:08] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 16:00:11] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'node' => 'root',
+)
+[02-Sep-2015 16:01:03] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 16:01:07] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'node' => 'root',
+)
+[02-Sep-2015 16:01:13] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'node' => 'root',
+)
+[02-Sep-2015 16:02:48] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 16:03:08] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'node' => 'root',
+)
+[02-Sep-2015 16:03:22] $action - array (
+  'page' => 2,
+  'start' => 25,
+  'limit' => 25,
+  'addRecords' => false,
+  'node' => 'root',
+)
+[02-Sep-2015 16:03:38] $action - array (
+  'page' => 3,
+  'start' => 50,
+  'limit' => 25,
+  'addRecords' => false,
+  'node' => 'root',
+)
+[02-Sep-2015 17:03:50] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 17:04:26] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'node' => 'root',
+)
+[02-Sep-2015 17:04:40] $action - array (
+  'page' => 2,
+  'start' => 25,
+  'limit' => 25,
+  'addRecords' => false,
+  'node' => 'root',
+)
+[02-Sep-2015 17:05:24] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 17:05:28] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'node' => 'root',
+)
+[02-Sep-2015 17:07:11] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 17:07:38] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 17:07:48] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 17:07:50] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'node' => 'root',
+)
+[02-Sep-2015 17:10:14] $action - array (
+  'page' => 2,
+  'start' => 25,
+  'limit' => 25,
+  'addRecords' => false,
+  'node' => 'root',
+)
+[02-Sep-2015 17:10:23] $action - array (
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 17:10:23] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 17:10:24] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:10:26] $action - array (
+  'page' => 1015,
+  'start' => 25350,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:11:09] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:11:09] $action - array (
+  'page' => 3,
+  'start' => 50,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:11:18] $action - array (
+  'page' => 3,
+  'start' => 50,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:11:19] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:11:21] $action - array (
+  'database' => 'party_board',
+  'collection' => 'users',
+  'node' => 'root',
+)
+[02-Sep-2015 17:11:23] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:11:25] $action - array (
+  'page' => 3,
+  'start' => 50,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:11:26] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:11:31] $action - array (
+  'page' => 2,
+  'start' => 25,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:11:44] $action - array (
+  'page' => 1015,
+  'start' => 25350,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:11:46] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:11:46] $action - array (
+  'page' => 3,
+  'start' => 50,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:11:51] $action - array (
+  'page' => 3,
+  'start' => 50,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:11:52] $action - array (
+  'page' => 3,
+  'start' => 50,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:11:52] $action - array (
+  'page' => 3,
+  'start' => 50,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:11:53] $action - array (
+  'page' => 3,
+  'start' => 50,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:11:53] $action - array (
+  'page' => 3,
+  'start' => 50,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:11:54] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:12:04] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:21:04] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:21:06] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:21:08] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:21:11] $action - array (
+  'page' => 2,
+  'start' => 25,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:23:38] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 17:24:09] $action - array (
+  'node' => 'root',
+)
+[02-Sep-2015 17:27:08] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:27:16] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:27:18] $action - array (
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 17:27:27] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:27:28] $action - array (
+  'page' => 3,
+  'start' => 50,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:27:30] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:29:50] $action - array (
+  'page' => 4,
+  'start' => 75,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:29:55] $action - array (
+  'page' => 5,
+  'start' => 100,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:30:11] $action - array (
+  'page' => 6,
+  'start' => 125,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:30:21] $action - array (
+  'page' => 7,
+  'start' => 150,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:30:22] $action - array (
+  'page' => 8,
+  'start' => 175,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:30:22] $action - array (
+  'page' => 9,
+  'start' => 200,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:30:22] $action - array (
+  'page' => 10,
+  'start' => 225,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:30:22] $action - array (
+  'page' => 11,
+  'start' => 250,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:30:23] $action - array (
+  'page' => 12,
+  'start' => 275,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:30:24] $action - array (
+  'page' => 11,
+  'start' => 250,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:30:25] $action - array (
+  'page' => 10,
+  'start' => 225,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:30:35] $action - array (
+  'page' => 1,
+  'start' => 0,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:30:43] $action - array (
+  'page' => 10,
+  'start' => 225,
+  'limit' => 25,
+  'addRecords' => false,
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:33:00] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:33:02] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:33:04] $action - array (
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 17:33:05] $action - array (
+  'database' => 'party_board',
+  'collection' => 'users',
+  'node' => 'root',
+)
+[02-Sep-2015 17:33:08] $action - array (
+  'database' => 'test',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:33:11] $action - array (
+  'database' => 'local',
+  'collection' => 'startup_log',
+  'node' => 'root',
+)
+[02-Sep-2015 17:33:15] $action - array (
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 17:33:17] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:42:18] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:42:22] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:44:51] $action - array (
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 17:45:57] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:46:08] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:46:43] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:46:47] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:46:49] $action - array (
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 17:46:59] $action - array (
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 17:47:01] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:50:54] $action - array (
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 17:52:01] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:52:07] $action - array (
+  'database' => 'party_board',
+  'collection' => 'users',
+  'node' => 'root',
+)
+[02-Sep-2015 17:52:08] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 17:52:08] $action - array (
+  'database' => 'party_board',
+  'collection' => 'party',
+  'node' => 'root',
+)
+[02-Sep-2015 17:52:09] $action - array (
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 18:05:31] $action - array (
+  'database' => 'party_board',
+  'collection' => 'movie',
+  'node' => 'root',
+)
+[02-Sep-2015 18:05:34] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'node' => 'root',
+)
+[02-Sep-2015 18:09:52] $action - array (
+  'database' => 'party_board',
+  'collection' => 'restaurants',
+  'sort' => '[{"property":"key","direction":"DESC"}]',
+  'node' => 'root',
 )
