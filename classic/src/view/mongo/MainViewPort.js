@@ -28,47 +28,66 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
                 type: 'tree-list'
             },
             layout : 'border',
-            items: [{
-                region: 'west',
-                title : 'MongoDB Databases',
-                split: true,
-                reference: 'treelistContainer',
-                collapsible: true,
-                header: {
-                    items: [{
-                        xtype: 'button',
-                        text: 'Nav',
-                        enableToggle: true,
-                        reference: 'navBtn',
-                        toggleHandler: 'onToggleNav'
-                    },{
-                        xtype: 'button',
-                        text: 'Micro',
-                        enableToggle: true,
-                        toggleHandler: 'onToggleMicro'
-                    }]
-                },
-                layout: {
-                    type: 'vbox',
-                    align: 'stretch'
-                },
-                border: false,
-                items: [{
-                    xtype: 'dbtreelist'
-                }]
-            },{
-                region : 'center',
-                xtype : 'collectiongrid',
-                title : {
-                    bind :{
-                        text : '{sdText}'
-                    }
-                },
-                bind : {
-                    store : '{gridStore}'
-                }
-            }]
+            items: [
+                this.createDatabaseHierarchy(),
+                this.createCollectionPanel()
+            ]
         });
         this.callParent(arguments);
+    },
+
+    /**
+     * 
+     */
+    createDatabaseHierarchy : function()
+    {
+        return {
+            region: 'west',
+            title : 'MongoDB Databases',
+            split: true,
+            reference: 'treelistContainer',
+            collapsible: true,
+            header: {
+                items: [{
+                    xtype: 'button',
+                    text: 'Nav',
+                    enableToggle: true,
+                    reference: 'navBtn',
+                    toggleHandler: 'onToggleNav'
+                },{
+                    xtype: 'button',
+                    text: 'Micro',
+                    enableToggle: true,
+                    toggleHandler: 'onToggleMicro'
+                }]
+            },
+            layout: {
+                type: 'vbox',
+                align: 'stretch'
+            },
+            border: false,
+            items: [{
+                xtype: 'dbtreelist'
+            }]
+        }
+    },
+
+    /**
+     * 
+     */
+    createCollectionPanel : function()
+    {
+        return{
+            region : 'center',
+            xtype : 'collectiongrid',
+            title : {
+                bind :{
+                    text : '{sdText}'
+                }
+            },
+            bind : {
+                store : '{gridStore}'
+            }
+        }
     }
 });

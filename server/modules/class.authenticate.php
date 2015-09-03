@@ -38,8 +38,23 @@ class authenticate extends ListModule
     function recursive($key, $values)
     {
         foreach ($values as $k => $v) {
+            if(is_object($v))
+            {
+                if (get_class($mongoDateObject) == 'MongoDate')) {
+                    
+                }
+            }
             if(is_array($v)){
                 $n[] = $this->recursive($k,$v); 
+            }else if(is_object($v)){
+                if (get_class($mongoDateObject) == 'MongoDate')) {
+                    $n[] = array(
+                        'key' => $k,
+                        'field' => $v,
+                        'type' => gettype($v),
+                        'leaf' => true
+                    );
+                }
             }else {
                 $n[] = array(
                     'key' => $k,
@@ -76,7 +91,7 @@ class authenticate extends ListModule
         $start = isset($action['start']) ? $action['start'] : 0;
         $data = array();
         $collection =  $GLOBALS['connection']->connStart($co,$db);
-        $usersCursor = $collection->find()->limit($limit)->skip($start);
+        $usersCursor = $collection->find()->limit(/*$limit*/1)/*->skip($start);*/;
         $totalCount = $collection->count();
         foreach ($usersCursor as $document) {
             foreach ($document as $key => $value) {

@@ -50,8 +50,13 @@ Ext.define('Mongo.view.mongo.CollectionGrid', {
 	{
 		Ext.apply(this, {
 			columns: [{
+				xtype: 'rownumberer',
+				width : 70,
+				text : 'No'
+			},{
 				xtype: 'treecolumn',
 				text: 'Keys',
+				/*iconCls : 'x-tree-icon x-faaa fa-mongodb',*/
 				dataIndex: 'key'
 			},{
 				text: 'Fields',
