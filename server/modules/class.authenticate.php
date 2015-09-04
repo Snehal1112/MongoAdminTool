@@ -32,44 +32,47 @@ class authenticate extends ListModule
         }
     }
 
+    function createNode($key, $value, $type, $leaf = false, $children = array())
+    {
+        $node = array(
+            'key' => $key,
+            'field' => $value,
+            'type' => gettype($value)
+        );
+
+        if($leaf) {
+            $node['leaf'] = $leaf;
+        } 
+
+        if(isset($children) && !empty($children)) {
+            $node['children'] = $children;
+        }
+
+        return $node;
+    }   
+
     /**
      * 
      */
-    function recursive($key, $values)
+    function recursive($key, $values, $document)
     {
         foreach ($values as $k => $v) {
-            if(is_object($v))
-            {
-                if (get_class($mongoDateObject) == 'MongoDate')) {
-                    
-                }
-            }
+
             if(is_array($v)){
-                $n[] = $this->recursive($k,$v); 
+                $n[] = $this->recursive($k,$v, $document); 
             }else if(is_object($v)){
-                if (get_class($mongoDateObject) == 'MongoDate')) {
-                    $n[] = array(
-                        'key' => $k,
-                        'field' => $v,
-                        'type' => gettype($v),
-                        'leaf' => true
-                    );
+                if (get_class($v) == 'MongoDate') {
+                    $n[] = $this->recursive($k,$v, $document); 
+                } else if(get_class($v) == 'MongoId') {
+                    $value = $document['_id']->{'$id'};
+                    $n[] = $this->createNode($key, $value, gettype($value), true);
                 }
             }else {
-                $n[] = array(
-                    'key' => $k,
-                    'field' => $v,
-                    'type' => gettype($v),
-                    'leaf' => true
-                );   
+                $n[] = $this->createNode($k, $v, gettype($v), true);
             }
         }
 
-        $nodes = array(
-            'key' => $key,
-            'field' => "{ " . count($values) . " fields }",
-            'type' => gettype($values)
-        );
+        $nodes = $this->createNode($key,  "{ " . count($values) . " fields }", gettype($values));
 
         if(isset($n))
         {
@@ -91,33 +94,21 @@ class authenticate extends ListModule
         $start = isset($action['start']) ? $action['start'] : 0;
         $data = array();
         $collection =  $GLOBALS['connection']->connStart($co,$db);
-        $usersCursor = $collection->find()->limit(/*$limit*/1)/*->skip($start);*/;
+        $usersCursor = $collection->find()->limit($limit)->skip($start);;
         $totalCount = $collection->count();
         foreach ($usersCursor as $document) {
             foreach ($document as $key => $value) {
-                if(is_array($value)) {
-                    $nodes[] = $this->recursive($key, $value);
+                if(is_array($value) || is_object($value)) {
+                    $nodes[] = $this->recursive($key, $value, $document);
                 } else {
-
-                    if(is_object($value)){
-                        $value = $document['_id']->{'$id'};
-                    }
-
-                    $nodes[] = array(
-                        'key' => $key,
-                        'field' => $value,
-                        'type' => gettype($value),
-                        'leaf' => true
-                    );
+                    $nodes[] = $this->createNode($key, $value, gettype($value), true);
                 }
             }
        
-            $data[] = array(
-                'key' => $document['_id']->{'$id'},
-                'field' => "{ " . count($document) . " fields }",
-                'type' => gettype($document),
-                'children' => $nodes
-            );
+            $keyField = $document['_id']->{'$id'};
+            $valueField = "{ " . count($document) . " fields }";
+            $typeField = gettype($document);
+            $data[] = $this->createNode($keyField, $valueField, $typeField, false, $nodes); 
             unset($nodes);
         }
 
@@ -138,7 +129,7 @@ class authenticate extends ListModule
             foreach ($dbNames as $collectionName) {
                 $nodes[] = array(
                     'text' => $collectionName,
-                    'iconCls'=> 'x-fa fa-database',
+                    'iconCls'=> 'x-fa fa-gear',/*fa-database */
                     'leaf' => true
                 );
             }
@@ -146,7 +137,7 @@ class authenticate extends ListModule
             if(isset($nodes) && !is_null($nodes)){
                 $data[] = array(
                     'text' => $db['name'],
-                    'iconCls'=> 'x-faaa fa-mongodb',
+                    'iconCls'=> 'x-fa fa-database',
                     'children' => $nodes
                 );
                 unset($nodes);

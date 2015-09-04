@@ -21,13 +21,12 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
     {
         config = config || {};
         Ext.applyIf(config,{
-            
             controller: 'tree-list',
-
             viewModel: {
                 type: 'tree-list'
             },
             layout : 'border',
+            title : ''
             items: [
                 this.createDatabaseHierarchy(),
                 this.createCollectionPanel()
@@ -47,20 +46,6 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
             split: true,
             reference: 'treelistContainer',
             collapsible: true,
-            header: {
-                items: [{
-                    xtype: 'button',
-                    text: 'Nav',
-                    enableToggle: true,
-                    reference: 'navBtn',
-                    toggleHandler: 'onToggleNav'
-                },{
-                    xtype: 'button',
-                    text: 'Micro',
-                    enableToggle: true,
-                    toggleHandler: 'onToggleMicro'
-                }]
-            },
             layout: {
                 type: 'vbox',
                 align: 'stretch'
@@ -77,7 +62,7 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
      */
     createCollectionPanel : function()
     {
-        return{
+        return {
             region : 'center',
             xtype : 'collectiongrid',
             title : {
