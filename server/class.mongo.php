@@ -10,16 +10,18 @@
 	include("core/class.mongodbconnection.php");
 	include("core/class.jsonrequest.php");
 	include("core/class.dispatcher.php");
+	include("core/class.operations.php");
 
 	$GLOBALS['connection'] = new MongoDBConnections();
 	$GLOBALS["dispatcher"] = new Dispatcher();
+	$GLOBALS["operations"] = new Operations();
 	
 	$json = readData();
 	$request = new JSONRequest($json);
 
 	try{
 		$request->execute($json);
-	}catch (Exception $e){
+	} catch (Exception $e){
 		echo "Exception throws";
 	}
 ?>

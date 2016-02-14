@@ -7,7 +7,7 @@
 		 */
 		function MongoDBConnections()
 		{
-			$this->conn = new MongoClient(SERVER);
+			$this->conn = new MongoClient();
 		}
 
 		/**
@@ -45,6 +45,14 @@
 			} else {
 				$this->connClose();
 			}
+		}
+
+		/**
+		 * 
+		 */
+		public function getDatabases()
+		{
+			return $this->conn->listDBs();
 		}
 	}
 ?>

@@ -1,16 +1,16 @@
 Ext.define('Mongo.view.mongo.CollectionGrid', {
 	/**
-	 * 
+	 * @cfg parent class @link{Ext.tree.Panel TreePanel} extended.
 	 */
-	extend: 'Ext.tree.Panel',
+	extend : 'Ext.tree.Panel',
 
 	/**
-	 * 
+	 * @cfg Create alias for @link{Mongo.view.mongo.CollectionGrid CollectionGrid}
 	 */
 	alias : 'widget.collectiongrid',
 
 	/**
-	 * 
+	 * @cfg List of classes that have to be loaded before instantiating this class.
 	 */
 	requires : [
 		'Mongo.view.mongo.DBCollectionTreeListViewModel',
@@ -18,11 +18,10 @@ Ext.define('Mongo.view.mongo.CollectionGrid', {
 		'Mongo.model.Role'
 	],
 
-	emptyText : 'There are no items to show in this view',
-
-	/**
-	 * 
-	 */
+    /**
+     * @constructor
+     * @param {Object} config Configuration object
+     */
 	constructor : function(config)
 	{
 		config = config || {};
@@ -32,10 +31,11 @@ Ext.define('Mongo.view.mongo.CollectionGrid', {
 			useArrows: true,
 			rootVisible: false,
 			multiSelect: true,
+			emptyText : 'There are no items to show in this view',
 			singleExpand: true,
 			dockedItems: [{
 				xtype: 'pagingtoolbar',
-				store: 'simpsonsStore',
+				store: 'documentStore',
 				dock: 'bottom',
 				displayInfo: true
 			}]
@@ -44,16 +44,13 @@ Ext.define('Mongo.view.mongo.CollectionGrid', {
 	},
 
 	/**
-	 * Function 
+	 * Function was called at the time of component initialization time.
+	 *
 	 */
 	initComponent : function()
 	{
 		Ext.apply(this, {
-			columns: [/*{
-				xtype: 'rownumberer',
-				width : 70,
-				text : 'No'
-			},*/{
+			columns: [{
 				xtype: 'treecolumn',
 				text: 'Keys',
 				dataIndex: 'key'
@@ -68,15 +65,37 @@ Ext.define('Mongo.view.mongo.CollectionGrid', {
 		this.callParent();
 	},
 
+	/**
+	 * Initialize the events.
+	 */
 	initEvents : function()
 	{
 		this.on('rowcontextmenu', this.onItemContextMenu, this);
 		this.callParent(arguments)
 	},
 
+	/**
+	 * Event handler which triggered when right click on any grid item.
+	 * also function shows the context menu on grid.
+	 */
 	onItemContextMenu : function(view, record, item, index, e, eOpts)
 	{
 		e.preventDefault();
-		
+		Ext.create('Ext.menu.Menu', {
+            items: [{
+                text: 'Open',
+                record : record,
+                iconCls : 'x-fa fa-folder-open',
+                listeners : {
+                	click : 'onOpenClick'
+                }
+            },{
+                text: 'Update',
+                iconCls : 'x-fa fa-edit'
+            },{
+                text: 'Delete',
+                iconCls : 'x-fa fa-remove'
+            }]
+        }).showAt(e.getXY());
 	}
 });

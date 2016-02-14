@@ -5,29 +5,30 @@ Ext.define('Mongo.view.mongo.DBCollectionTreeListViewModel', {
 
     formulas: {
         sdText: function(get) {
-            var selection = get('dbTreeList.selection'),
-                path;
+            var selection = get('dbTreeList.selection'),path;
             if (selection) {
                 var selectedNode = selection.getQueryRoot();
                 var parentNode = selectedNode.parentNode;
+                var dbPath;
                 if(!parentNode.isRoot()) {
-                    var store = this.getData().gridStore;
+                    var store = this.getData().documentStore;
                     store.setDatabase(parentNode.get('text'));
                     store.setCollection(selectedNode.get('text'));
                     store.load();
-                    return Ext.String.capitalize(selectedNode.get('text'));
+                    return Ext.String.capitalize(parentNode.get('text')) + " > "+ Ext.String.capitalize(selectedNode.get('text'));
                 }
+                return Ext.String.capitalize(selectedNode.get('text'));
             }
             return 'MongoDB Document';
         }
     },
 
     /**
-     * 
+     * List of stores which used to load the data at respective components.
      */
     stores: {
         /**
-         * 
+         * Tree store which load the hierarchy of database and collections of mongodb.
          */
         treestores: {
             type : 'tree',
@@ -36,8 +37,8 @@ Ext.define('Mongo.view.mongo.DBCollectionTreeListViewModel', {
             },
             proxy: {
                 type : 'request',
-                moduleName : 'authenticate',
-                action : 'treelist'
+                moduleName : 'hierarchy',
+                action : 'list'
             },
             folderSort: true,
             sorters: [{
@@ -47,9 +48,9 @@ Ext.define('Mongo.view.mongo.DBCollectionTreeListViewModel', {
         },
 
         /**
-         * 
+         * Store which contains the all the collection of document.
          */
-        gridStore :{
+        documentStore :{
             type : 'documentstore'
         }
     }

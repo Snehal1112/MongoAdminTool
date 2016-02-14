@@ -14,8 +14,10 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
         'Mongo.view.mongo.Request',
         'Mongo.model.Role'
     ],
+
     /**
-     * 
+     * @constructor
+     * @param {Object} config Configuration object
      */
     constructor : function(config)
     {
@@ -26,7 +28,6 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
                 type: 'tree-list'
             },
             layout : 'border',
-            title : ''
             items: [
                 this.createDatabaseHierarchy(),
                 this.createCollectionPanel()
@@ -36,7 +37,8 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
     },
 
     /**
-     * 
+     * Function which create the @link{Mongo.view.mongo.CollectionGrid CollectionGrid}
+     * @return {Object} component object.
      */
     createDatabaseHierarchy : function()
     {
@@ -58,7 +60,8 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
     },
 
     /**
-     * 
+     * Function which create the @link{Mongo.view.mongo.CollectionGrid CollectionGrid}
+     * @return {Object} component object.
      */
     createCollectionPanel : function()
     {
@@ -71,7 +74,7 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
                 }
             },
             bind : {
-                store : '{gridStore}'
+                store : '{documentStore}'
             }
         }
     }

@@ -1,51 +1,59 @@
-<?php	
-	error_reporting(E_ALL);
-	ini_set("display_errors","On");
-	require_once("../config.php");
-	include("../debug.php");
-	include("../core/class.mongodbconnection.php");
-	
-	
-	try {
-	$GLOBALS['connection'] = new MongoDBConnections();
-	$query = array();
-	$collection =  $GLOBALS['connection']->connStart('users');
-	$usersCursor = $collection->find($query,array("_id" => false))->limit(1);
-	}catch (MongoCursorException $e) {
-	    echo "error message: ".$e->getMessage()."\n";
-	    echo "error code: ".$e->getCode()."\n";
-	}
+<?php
+class hierarchy extends ListModule
+{
+    /**
+     * @param $data
+     */
+    function hierarchy($data)
+    {
+        parent::ListModule($data);
 
-	foreach ($usersCursor as $document) {
-		foreach ($document as $key => $value) {
-			$data[] = array(
-				'key' => $key,
-				'field' => $value,
-				'type' => gettype($value),
-				'leaf' => true
-			); 
-		}
-		$response['childern']['key'] = 'first ID';
-		$response['childern']['fields'] = is_object($document) ? "Object" : "Array" +"{"+ count($document) +1 +"}";
-		$response['childern']['childern'] = $data;
-	}
-		$fields = array('key', 'field', 'type');
-		
+        $this->start = 0;
+    }
 
-		foreach ($fields as $field) {
-			if($field == 'key') {
-				$colModel['xtype'] = 'treecolumn';
-			} /*else {
-				$colModel['header'] = $field;
-			}*/
-			$colModel['dataIndex'] = $field;
-            $colModel['text'] = $field;
-            $t[] = $colModel;
-		}
-		dump($t, '$t');
-	    $response['success'] = true;
-        $response['metaData']['root'] = 'children';
-        $response['metaData']['fields'] = $fields;
-        $response['metaData']['colModel'] = $t;
-	dump(json_encode($response), '$data');
+    /**
+     *
+     */
+    function execute()
+    {
+        foreach($this->data as $actionType => $action)
+        {
+            switch($actionType){
+                case "list":
+                    $this->getData($action);
+                break;
+            }
+        }
+    }   
+
+    /**
+     * 
+     */
+    function getData($action)
+    {
+        $dbs = $GLOBALS['connection']->getDatabases();  
+        foreach ($dbs['databases']  as $db) {
+            $connection = $GLOBALS['connection']->getDatabase($db['name']);
+            $dbNames = $connection->getCollectionNames();
+            foreach ($dbNames as $collectionName) {
+                $nodes[] = array(
+                    'text' => $collectionName,
+                    'iconCls'=> 'x-fa fa-table',
+                    'leaf' => true
+                ); 
+            }
+
+            if(isset($nodes) && !is_null($nodes)){
+                $data[] = array(
+                    'text' => $db['name'],
+                    'iconCls'=> 'x-fa fa-database',
+                    'children' => $nodes
+                );
+                unset($nodes);
+            }
+        }
+        $response = array('children' => $data);
+        echo json_encode($response); 
+    }
+}
 ?>

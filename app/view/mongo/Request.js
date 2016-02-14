@@ -1,7 +1,17 @@
 Ext.define('Mongo.view.mongo.Request', {
+    /**
+     *
+     */
     extend: 'Ext.data.proxy.Ajax',
 
+    /**
+     *
+     */
     alias : 'proxy.request',
+    
+    /**
+     *
+     */
     constructor : function(config)
     {
     	config = config || {};
@@ -23,7 +33,8 @@ Ext.define('Mongo.view.mongo.Request', {
     /**
      * Build the request 
      */
-    buildRequest: function(operation) {
+    buildRequest: function(operation)
+    {
         request = this.callParent(arguments);
         var params = this.buildParams(request.getParams());
 

@@ -1,6 +1,6 @@
 Ext.define('Ext.data.reader.DBReader', {
     extend: 'Ext.data.reader.Json',
-    alias : 'reader.dbreader',
+    alias : 'reader.dbreader'
     /*read: function(response) {
         var staticStuff,
             responseArr;

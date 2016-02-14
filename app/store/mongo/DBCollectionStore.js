@@ -7,7 +7,6 @@ Ext.define('Mongo.store.mongo.DBCollectionStore', {
         id: 'src',
         expanded: true
     },
-    //autoLoad : true,
     proxy: {
         type: 'ajax',
         url: 'server/class.mongo.php',
@@ -16,5 +15,4 @@ Ext.define('Mongo.store.mongo.DBCollectionStore', {
             rootProperty: 'items'
         }
     }
-
 });

@@ -27,19 +27,20 @@ Ext.define('Mongo.store.mongo.DocumentStore', {
     },
 
     /**
-     * 
+     * @constructor
+     * @param {Object} config Configuration object
      */
     constructor : function(config)
     {
         config = config || {};
         Ext.applyIf(config, {
-            id: 'simpsonsStore',
+            id: 'documentStore',
             root: {
                 children : []
             },
             proxy: {
                 type : 'request',
-                moduleName : 'authenticate',
+                moduleName : 'documentlistmodule',
                 action : 'list',
                 reader: {
                     totalProperty: 'total'
