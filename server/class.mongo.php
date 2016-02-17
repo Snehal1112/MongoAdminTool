@@ -15,7 +15,7 @@
 	$GLOBALS['connection'] = new MongoDBConnections();
 	$GLOBALS["dispatcher"] = new Dispatcher();
 	$GLOBALS["operations"] = new Operations();
-	
+	dump('test', 'test');
 	$json = readData();
 	$request = new JSONRequest($json);
 
