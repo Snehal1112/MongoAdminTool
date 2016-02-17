@@ -17,9 +17,12 @@ Ext.define('Mongo.view.mongo.Request', {
     	config = config || {};
         Ext.applyIf(config,{
             action : config.action,
-            url: 'server/class.mongo.php',
+            url: '/server/class.mongo.php',
             actionMethods: {
                 read: 'POST'
+            },
+            headers: {
+                'Content-Type': 'application/json'
             },
             paramsAsJson: true,
             reader: {
