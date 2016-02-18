@@ -52,7 +52,8 @@ class hierarchy extends ListModule
                 unset($nodes);
             }
         }
-        $response = array('children' => $data);
+
+        $response = array('success' => true, 'children' => $data);
         echo json_encode($response); 
     }
 }

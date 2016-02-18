@@ -18,10 +18,10 @@ Ext.define('Mongo.view.mongo.CollectionGrid', {
 		'Mongo.model.Role'
 	],
 
-    /**
-     * @constructor
-     * @param {Object} config Configuration object
-     */
+	/**
+	 * @constructor
+	 * @param {Object} config Configuration object
+	 */
 	constructor : function(config)
 	{
 		config = config || {};
@@ -82,20 +82,20 @@ Ext.define('Mongo.view.mongo.CollectionGrid', {
 	{
 		e.preventDefault();
 		Ext.create('Ext.menu.Menu', {
-            items: [{
-                text: 'Open',
-                record : record,
-                iconCls : 'x-fa fa-folder-open',
-                listeners : {
-                	click : 'onOpenClick'
-                }
-            },{
-                text: 'Update',
-                iconCls : 'x-fa fa-edit'
-            },{
-                text: 'Delete',
-                iconCls : 'x-fa fa-remove'
-            }]
-        }).showAt(e.getXY());
+			items: [{
+				text: 'Open',
+				record : record,
+				iconCls : 'fa fa-folder-open',
+				listeners : {
+					click : 'onOpenClick'
+				}
+			},{
+				text: 'Update',
+				iconCls : 'x-fa fa-edit'
+			},{
+				text: 'Delete',
+				iconCls : 'x-fa fa-remove'
+			}]
+			}).showAt(e.getXY());
 	}
 });

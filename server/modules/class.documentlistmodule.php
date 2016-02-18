@@ -61,6 +61,7 @@ class documentlistmodule extends ListModule
         if (is_null($data)) {
             return;
         }
+
         $response = array('total' => $totalCount, 'children' => $data);
         echo json_encode($response);
     }

@@ -13,6 +13,7 @@ Ext.define('Mongo.store.mongo.DBCollectionStore', {
         reader: {
             type: 'json',
             rootProperty: 'items'
-        }
+        },
+        noCache: false
     }
 });

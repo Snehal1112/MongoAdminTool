@@ -5,7 +5,7 @@ Ext.define('Mongo.view.mongo.DBCollectionTreeListViewModel', {
 
     formulas: {
         sdText: function(get) {
-            var selection = get('dbTreeList.selection'),path;
+            var selection = get('treelist.selection'),path;
             if (selection) {
                 var selectedNode = selection.getQueryRoot();
                 var parentNode = selectedNode.parentNode;

@@ -44,7 +44,8 @@ Ext.define('Mongo.store.mongo.DocumentStore', {
                 action : 'list',
                 reader: {
                     totalProperty: 'total'
-                }
+                },
+                noCache: false
             }
         });
         this.callParent(arguments);
@@ -52,7 +53,7 @@ Ext.define('Mongo.store.mongo.DocumentStore', {
     },
 
     /**
-     * 
+     * Event handler Triggered when @link{Mongo.store.mongo#DocumentStore Document store} gets load.
      */
     onStoreLoad : function(store, records, successful, operation, node, eOpts)
     {
@@ -60,9 +61,13 @@ Ext.define('Mongo.store.mongo.DocumentStore', {
     },
 
     /**
-     * 
+     * Function used to get the information of total number 
+     * of record in @link{Mongo.store.mongo#DocumentStore Document store}.
+     * @return number which indicate total number of 
+     * record in @link{Mongo.store.mongo#DocumentStore Document store}.
      */
-    getTotalCount: function() {
+    getTotalCount: function()
+    {
         return this.totalCount || this.getCount();
     },
 

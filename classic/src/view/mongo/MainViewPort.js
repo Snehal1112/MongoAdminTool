@@ -10,6 +10,7 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
      * 
      */
     requires : [
+        'Mongo.view.mongo.DBCollectionTreeListViewController',
         'Mongo.view.mongo.DBCollectionTreeListViewModel',
         'Mongo.view.mongo.Request',
         'Mongo.model.Role'
@@ -46,15 +47,26 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
             region: 'west',
             title : 'MongoDB Databases',
             split: true,
+            //iconCls : 'x-fa fa-mongodb',
+            iconCls: 'fa fa-home fa-lg',
             reference: 'treelistContainer',
-            collapsible: true,
+            cls : 'treelist-with-nav',
             layout: {
                 type: 'vbox',
                 align: 'stretch'
             },
             border: false,
+            scrollable: 'y',
             items: [{
-                xtype: 'dbtreelist'
+                xtype: 'dbtreelist',
+                reference: 'treelist',
+                ui : 'nav'
+            }],
+            bbar : [{
+                xtype : 'button',
+                text : '<<',
+                width : 44,
+                handler : 'onButtonClick'
             }]
         }
     },

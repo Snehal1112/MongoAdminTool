@@ -43,8 +43,4 @@ Ext.define('Mongo.view.mongo.DBContentPanel', {
         valueField: 'abbr',
         hidden : true
     }]
-
-    /*controller: 'main',
-    viewModel: 'main',
-    */
 });

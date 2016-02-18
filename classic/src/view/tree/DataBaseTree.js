@@ -25,18 +25,24 @@ Ext.define('Mongo.view.tree.DatabaseTree', {
 			
 			emptyText : 'There are no items to show in this view',
 			reference: 'dbTreeList',
-			expanderFirst : true,
+			expanderFirst : false,
 			bind: '{treestores}'
 		});
 		this.callParent(arguments);
 	},
 
+	/**
+	 * 
+	 */
 	initEvents : function()
 	{
 		this.on('rowcontextmenu', this.onItemContextMenu, this);
 		this.callParent(arguments)
 	},
 
+	/**
+	 * 
+	 */
 	onItemContextMenu : function(view, record, item, index, e, eOpts)
 	{
 		console.log(record);
