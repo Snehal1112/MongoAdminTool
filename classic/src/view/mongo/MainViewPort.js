@@ -1,3 +1,4 @@
+Ext.ns('Mongo.view.mongo');
 Ext.define('Mongo.view.mongo.MainViewPort', {
     extend: 'Ext.container.Viewport',
 
@@ -5,6 +6,7 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
      * 
      */
     xtype: 'mainviewport',
+    alias: 'widget.mainviewport',
 
     /**
      * 
@@ -13,6 +15,8 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
         'Mongo.view.mongo.DBCollectionTreeListViewController',
         'Mongo.view.mongo.DBCollectionTreeListViewModel',
         'Mongo.view.mongo.Request',
+        'Mongo.view.mongo.MailContext',
+        'Mongo.view.core.Container',
         'Mongo.model.Role'
     ],
 
@@ -29,6 +33,7 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
                 type: 'tree-list'
             },
             layout : 'border',
+            autoRender : true,
             items: [
                 this.createDatabaseHierarchy(),
                 this.createCollectionPanel()
@@ -45,10 +50,7 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
     {
         return {
             region: 'west',
-            title : 'MongoDB Databases',
             split: true,
-            //iconCls : 'x-fa fa-mongodb',
-            iconCls: 'fa fa-home fa-lg',
             reference: 'treelistContainer',
             cls : 'treelist-with-nav',
             layout: {
@@ -62,12 +64,18 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
                 reference: 'treelist',
                 ui : 'nav'
             }],
-            bbar : [{
-                xtype : 'button',
-                text : '<<',
-                width : 44,
-                handler : 'onButtonClick'
+            tools: [{
+                type: 'left',
+                callback: 'onToggleMicro'
             }]
+           /* header: {
+                items: [{
+                    xtype: 'button',
+                    text: 'Micro',
+                    enableToggle: true,
+                    toggleHandler: 'onToggleMicro'
+                }]
+            }*/
         }
     },
 

@@ -41,7 +41,7 @@ Ext.define('Mongo.store.mongo.DocumentStore', {
             proxy: {
                 type : 'request',
                 moduleName : 'documentlistmodule',
-                action : 'list',
+                    action : 'list',
                 reader: {
                     totalProperty: 'total'
                 },

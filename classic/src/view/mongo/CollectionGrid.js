@@ -84,7 +84,7 @@ Ext.define('Mongo.view.mongo.CollectionGrid', {
 		Ext.create('Ext.menu.Menu', {
 			items: [{
 				text: 'Open',
-				record : record,
+				records : view.getSelection(),
 				iconCls : 'fa fa-folder-open',
 				listeners : {
 					click : 'onOpenClick'
@@ -94,8 +94,11 @@ Ext.define('Mongo.view.mongo.CollectionGrid', {
 				iconCls : 'x-fa fa-edit'
 			},{
 				text: 'Delete',
-				iconCls : 'x-fa fa-remove'
+				iconCls : 'x-fa fa-remove',
+				listeners : {
+					click : 'onDeleteClick'
+				}
 			}]
-			}).showAt(e.getXY());
+		}).showAt(e.getXY());
 	}
 });

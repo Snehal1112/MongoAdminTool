@@ -7,24 +7,48 @@ Ext.define('Mongo.view.mongo.DBCollectionTreeListViewController', {
     alias: 'controller.tree-list',
 
     /**
-     * 
+     * Event handler triggered when open item was clicked from context menu.
      */
-    onToggleNav : function (button, pressed) {
-    	console.log(button);
+    onOpenClick : function(button, event, fnName)
+    {
+        var obj = {};
+        Ext.each(button.records , function(record) {
+            var recordId = record.getPath().split("/",3)[2];
+            var parentNode = record.getTreeStore().getNodeById(recordId);
+
+            obj[parentNode.getData().key] = {};
+            obj[parentNode.getData().key] = this.composeObj(parentNode);
+        }, this);
+        jsonObj = JSON.stringify(obj, null, 4);
+
+        Ext.create({
+             xtype: 'messagecontentpanel',
+             jsonObj : jsonObj
+        });
     },
 
     /**
      * 
      */
-    onToggleMicro : function(button, pressed)
+    composeObj : function(node)
     {
-    	console.log(button);
+        var obj = {};
+        var childNodes = node.childNodes;
+        Ext.each(childNodes, function(childNode) {
+            if(childNode.hasChildNodes()) {
+                obj[childNode.getData().key] = {};
+                obj[childNode.getData().key] = this.composeObj(childNode);
+            } else {
+                obj[childNode.getData().key] = childNode.getData().field;
+            }
+        }, this);
+        return obj
     },
 
     /**
      * Event handler triggered when open item was clicked from context menu.
      */
-    onOpenClick : function(button, event, fnName)
+    onDeleteClick : function(button, event, fnName)
     {
         var record = button.record;
         var recordId = record.getPath().split("/",3)[2];
@@ -34,13 +58,22 @@ Ext.define('Mongo.view.mongo.DBCollectionTreeListViewController', {
         console.log(parentNode);
     },
 
-    onButtonClick : function(button, event, fnName)
+    /**
+     * 
+     */
+    onToggleMicro : function(owner, button, event)
     {
          var treelist = this.lookupReference('treelist'),
             ct = treelist.ownerCt;
-
-        treelist.setMicro(true);
-        this.oldWidth = ct.width;
-        ct.setWidth(44);
+        var expand = button.type === 'left';
+        treelist.setMicro(expand);
+        if(expand) {
+            this.oldWidth = ct.getWidth();
+            ct.setWidth(44);
+            button.setType('right');
+        } else {
+            ct.setWidth(this.oldWidth);
+            button.setType('left');
+        }
     }
 });

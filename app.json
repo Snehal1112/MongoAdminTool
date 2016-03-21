@@ -201,7 +201,7 @@
      */
     "js": [
         {
-            "path": "app.js",
+            "path": "app/Application.js",
             "bundle": true
         }
     ],

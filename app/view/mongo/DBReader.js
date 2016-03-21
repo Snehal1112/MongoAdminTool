@@ -14,4 +14,4 @@ Ext.define('Ext.data.reader.DBReader', {
         // read
         this.readRecords(responseArr);
     }*/
-})
+});

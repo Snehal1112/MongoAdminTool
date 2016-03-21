@@ -1,30 +1,36 @@
-/**
- * The main application class. An instance of this class is created by app.js when it
- * calls Ext.application(). This is the ideal place to handle application launch and
- * initialization details.
- */
-Ext.define('Mongo.Application', {
-    extend: 'Ext.app.Application',
-    
-    name: 'Mongo',
+Ext.ns('Mongo');
 
-    stores: [
-        // TODO: add global / shared stores here
-    ],
-    launch: function () {
-        
-        Ext.create({
-            xtype: 'mainviewport'
-        });
+Ext.apply(Mongo, {
+    /**
+     * 
+     */
+    isReady : false,
+    name: 'Mongo',
+    readyEvent : new Ext.util.Event([]),
+    onReady : function(fn, scope, options)
+    {
+        this.readyEvent.addListener(fn, this, options);
+
+        // If the environment is already ready, can
+        // should call fireReady again to fire the
+        // just registered event.
+        if (this.isReady) {
+            this.fireReady();
+        }
     },
 
-    onAppUpdate: function () {
-        Ext.Msg.confirm('Application Update', 'This application has an update, reload?',
-            function (choice) {
-                if (choice === 'yes') {
-                    window.location.reload();
-                }
-            }
-        );
+    fireReady : function()
+    {
+        this.isReady = true;
+        this.readyEvent.fire();
+        this.readyEvent.clearListeners();
+    },
+
+    launch: function () {
+        container = new Mongo.view.core.Container();
+        Mongo.fireReady();
+        container.getMainPanel();
     }
 });
+
+Ext.application(Mongo);
