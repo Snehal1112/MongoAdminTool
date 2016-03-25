@@ -61,19 +61,22 @@ Ext.define('Mongo.view.mongo.DBCollectionTreeListViewController', {
     /**
      * 
      */
-    onToggleMicro : function(owner, button, event)
+    onToggleMicro : function(button, event)
     {
          var treelist = this.lookupReference('treelist'),
             ct = treelist.ownerCt;
-        var expand = button.type === 'left';
-        treelist.setMicro(expand);
-        if(expand) {
+        var collapsing = !treelist.getMicro();
+        if(collapsing === null) {
+            treelist.setMicro(false);
+        }
+        
+        if(!treelist.getMicro()) {
             this.oldWidth = ct.getWidth();
             ct.setWidth(44);
-            button.setType('right');
+            treelist.setMicro(true);
         } else {
             ct.setWidth(this.oldWidth);
-            button.setType('left');
+            treelist.setMicro(false);
         }
     }
 });
