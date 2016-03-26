@@ -40,7 +40,8 @@ class documentlistmodule extends ListModule
         $start = isset($action['start']) ? $action['start'] : 0;
         $data = array();
         $collection =  $GLOBALS['connection']->connStart($co,$db);
-        $usersCursor = $collection->find()->limit($limit)->skip($start);;
+        $usersCursor = $collection->find()->limit($limit)->skip($start);
+        dump($usersCursor, '$usersCursor');
         $totalCount = $collection->count();
         foreach ($usersCursor as $document) {
             foreach ($document as $key => $value) {

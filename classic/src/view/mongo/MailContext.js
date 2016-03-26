@@ -21,11 +21,3 @@ Mongo.onReady(function(){
 		pluginConstructor : Mongo.view.mongo.MailContext
 	}));
 });
-/*Mongo.Application.prototype.onReady(function(){
-    container.registerContext(new Mongo.view.core.ContextMetaData({
-        name : 'mail',
-        displayName: 'Mail',
-        allowUserVisible : false,
-        pluginConstructor : Mongo.view.mongo.MailContext
-    }));
-});*/
