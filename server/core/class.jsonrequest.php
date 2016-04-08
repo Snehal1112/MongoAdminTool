@@ -20,7 +20,6 @@ class JSONRequest
         try{
             // decode JSON data
             $data = json_decode($json, true);
-
             // Check if the JSON is parsed correctly into an array
             $data = $data["mongo"] ? $data["mongo"] : false;
             // @TODO throw exception if zarafa tag is not present

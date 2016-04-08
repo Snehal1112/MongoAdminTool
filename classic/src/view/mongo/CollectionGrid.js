@@ -95,6 +95,7 @@ Ext.define('Mongo.view.mongo.CollectionGrid', {
 			},{
 				text: 'Delete',
 				iconCls : 'x-fa fa-remove',
+				records : view.getSelection(),
 				listeners : {
 					click : 'onDeleteClick'
 				}

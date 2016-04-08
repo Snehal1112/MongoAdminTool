@@ -31,6 +31,7 @@ class Dispatcher
     {
         $module = false;
         $path = BASE_PATH . 'modules/class.' . $moduleName . '.php';
+
         if (is_file($path) === true) {
             require_once($path);
             $module = new $moduleName($data);

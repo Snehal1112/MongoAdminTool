@@ -38,10 +38,14 @@ Ext.define('Mongo.store.mongo.DocumentStore', {
             root: {
                 children : []
             },
+            model : 'Mongo.model.Role',
             proxy: {
                 type : 'request',
                 moduleName : 'documentlistmodule',
-                    action : 'list',
+                action : 'list',
+                writer : {
+                    rootProperty : 'items'
+                },
                 reader: {
                     totalProperty: 'total'
                 },
@@ -94,6 +98,22 @@ Ext.define('Mongo.store.mongo.DocumentStore', {
         });
 
         this.callParent([options]);
+    }, 
+
+    /**
+     *
+     */
+    getRemovedRecords : function()
+    {
+        this.callParent();
+        var m = [];
+        Ext.each(this.removedNodes , function(node){
+            if(node.get('lastParentId') === 'root') {
+                m.push(node);
+            }
+        }, this);
+        this.removedNodes = m;
+        return this.removedNodes;
     }
 
 });

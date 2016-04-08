@@ -34,18 +34,6 @@ Ext.define('Mongo.view.mongo.Request', {
     },
 
     /**
-     * Build the request 
-     */
-    buildRequest: function(operation)
-    {
-        request = this.callParent(arguments);
-        var params = this.buildParams(request.getParams());
-
-        request.setParams(params);
-        return request;
-    },
-
-    /**
      * Build the request parameter 
      */
     buildParams : function(requestParams)
@@ -55,6 +43,53 @@ Ext.define('Mongo.view.mongo.Request', {
         mongoTag.mongo[this.moduleName][this.action] = {};
         mongoTag.mongo[this.moduleName][this.action] = requestParams;
         return mongoTag;
+    },
+
+    doRequest : function(operation) {
+        var me = this,
+            writer  = me.getWriter(),
+            request = me.buildRequest(operation),
+            method  = me.getMethod(request),
+            jsonData, params;
+            
+        if (writer && operation.allowWrite()) {
+            request = writer.write(request);
+        }
+        
+        request.setConfig({
+            binary              : me.getBinary(),
+            headers             : me.getHeaders(),
+            timeout             : me.getTimeout(),
+            scope               : me,
+            callback            : me.createRequestCallback(request, operation),
+            method              : method,
+            useDefaultXhrHeader : me.getUseDefaultXhrHeader(),
+            disableCaching      : false // explicitly set it to false, ServerProxy handles caching
+        });
+        
+        if (method.toUpperCase() !== 'GET' && me.getParamsAsJson()) {
+            params = request.getParams();
+
+            if (params) {
+                jsonData = request.getJsonData();
+                if (jsonData) {
+                    this.moduleName = "documentitemmodule";
+                    this.action = request.getAction();
+                    jsonData = this.buildParams(jsonData);
+                } else {
+                    jsonData = this.buildParams(params);
+                }
+                request.setJsonData(jsonData);
+                request.setParams(undefined);
+            }
+        }
+        
+        if (me.getWithCredentials()) {
+            request.setWithCredentials(true);
+            request.setUsername(me.getUsername());
+            request.setPassword(me.getPassword());
+        }
+        return me.sendRequest(request);
     },
 
     /**

@@ -1429,6 +1429,14 @@ $current-resource-root: $Mongo-resource-root;
 $relative-image-path-for-uis: $Mongo-resource-path;
 @import '../../../../../sass/var/all';
 
+/* including package Mongo */
+$Mongo-resource-root: '' !default;
+$Mongo-resource-path: 'images' !default;
+$current-package: false;
+$current-resource-root: $Mongo-resource-root;
+$relative-image-path-for-uis: $Mongo-resource-path;
+@import '../../../../../classic/sass/var/view/mongo/MainViewPort';
+
 
 /* ======================== RULE ======================== */
 
@@ -1655,5 +1663,6 @@ $Mongo-resource-path: 'images' !default;
 $current-package: false;
 $current-resource-root: $Mongo-resource-root;
 $relative-image-path-for-uis: $Mongo-resource-path;
+@import '../../../../../classic/sass/src/view/mongo/MainViewPort';
 @import '../../../../../classic/sass/src/view/mongo/MessageContentPanel';
 @import '../../../../../classic/sass/src/view/tree/DatabaseTree';

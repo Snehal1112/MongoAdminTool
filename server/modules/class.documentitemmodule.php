@@ -1,30 +1,23 @@
 <?php
-	/**
-	 * ItemModule
-	 * Module which openes, creates, saves and deletes an item. It
-	 * extends the Module class.
-	 */
-	class ItemModule extends Module
+	class documentitemmodule extends ItemModule
 	{
 		/**
 		 * Constructor
 		 * @param int $id unique id.
 		 * @param array $data list of all actions.
 		 */
-		function ItemModule($data)
+		function documentitemmodule($data)
 		{
-			parent::Module($data);
+			dump('$data', '$data');
+			parent::ItemModule($data);
 		}
 
-		/**
-		 * Executes all the actions in the $data variable.
-		 * @return boolean true on success of false on fialure.
-		 */
 		function execute()
 		{
 			foreach($this->data as $actionType => $action)
 			{
-				/*if(isset($actionType)) {
+				dump($this->data, '$this->data');
+				if(isset($actionType)) {
 					try {
 						switch($actionType)
 						{
@@ -35,8 +28,8 @@
 					}catch(Exception $e) {
 						dump('item module error')
 					}
-				}*/
+				}
 			}
-		}	
+		}
 	}
 ?>

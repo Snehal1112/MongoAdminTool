@@ -9,4 +9,6 @@ define('BASE_PATH', dirname($_SERVER['SCRIPT_FILENAME']) . "/");
 
 define('SERVER', "192.168.1.10");
 
+define('DATABASE_NAME', "party_board");
+
 ?>

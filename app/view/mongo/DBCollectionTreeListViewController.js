@@ -50,12 +50,13 @@ Ext.define('Mongo.view.mongo.DBCollectionTreeListViewController', {
      */
     onDeleteClick : function(button, event, fnName)
     {
-        var record = button.record;
-        var recordId = record.getPath().split("/",3)[2];
-        var parentNode = record.getTreeStore().getNodeById(recordId);
-
-        
-        console.log(parentNode);
+        var obj = {};
+        Ext.each(button.records , function(record) {
+            var recordId = record.getPath().split("/",3)[2];
+            var parentNode = record.getTreeStore().getNodeById(recordId);
+            parentNode.remove();
+        }, this);
+        this.getViewModel().get('documentStore').sync();
     },
 
     /**
@@ -64,18 +65,19 @@ Ext.define('Mongo.view.mongo.DBCollectionTreeListViewController', {
     onToggleMicro : function(button, event)
     {
          var treelist = this.lookupReference('treelist'),
-            ct = treelist.ownerCt;
-        var collapsing = !treelist.getMicro();
-        if(collapsing === null) {
-            treelist.setMicro(false);
-        }
-        
-        if(!treelist.getMicro()) {
-            this.oldWidth = ct.getWidth();
-            ct.setWidth(44);
+            ct = treelist.ownerCt ,
+            refs = this.getReferences(),
+            collapsing = !treelist.getMicro(),
+            new_width = collapsing ? 44 : 160;
+
+        refs.senchaLogo.animate({dynamic: true, to: {width: new_width}});
+
+        if(collapsing) {
+            ct.setWidth(new_width);
+            
             treelist.setMicro(true);
         } else {
-            ct.setWidth(this.oldWidth);
+            ct.setWidth(new_width);
             treelist.setMicro(false);
         }
     }

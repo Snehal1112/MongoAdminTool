@@ -7,13 +7,13 @@
 		 */
 		function MongoDBConnections()
 		{
-			$this->conn = new MongoClient();
+			$this->conn = new MongoClient("mongodb://localhost:27017");
 		}
 
 		/**
 		 * 
 		 */
-		public function getDatabase($dataBase = "party_board")
+		public function getDatabase($dataBase = DATABASE_NAME)
 		{
 			return $this->conn->$dataBase;
 		}
