@@ -24,18 +24,18 @@
 		{
 			foreach($this->data as $actionType => $action)
 			{
-				/*if(isset($actionType)) {
+				if(isset($actionType)) {
 					try {
 						switch($actionType)
 						{
 							case "destroy":
-								dump('data', 'data');
+								$this->remove($action);
 							break;
 						}
 					}catch(Exception $e) {
-						dump('item module error')
+						dump('item module error', 'item module error');
 					}
-				}*/
+				}
 			}
 		}	
 	}

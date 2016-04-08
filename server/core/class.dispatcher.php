@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: snehal
- * Date: 8/14/2015
- * Time: 5:27 PM
- */
 class Dispatcher
 {
     public function Dispatcher()

@@ -8,28 +8,12 @@
 		 */
 		function documentitemmodule($data)
 		{
-			dump('$data', '$data');
 			parent::ItemModule($data);
 		}
 
-		function execute()
+		function remove($action) 
 		{
-			foreach($this->data as $actionType => $action)
-			{
-				dump($this->data, '$this->data');
-				if(isset($actionType)) {
-					try {
-						switch($actionType)
-						{
-							case "destroy":
-								dump('data', 'data');
-							break;
-						}
-					}catch(Exception $e) {
-						dump('item module error')
-					}
-				}
-			}
+			dump($action, '$action');
 		}
 	}
 ?>

@@ -37,7 +37,7 @@ Ext.define('Mongo.store.mongo.DocumentStore', {
             id: 'documentStore',
             root: {
                 children : []
-            },
+            },           
             model : 'Mongo.model.Role',
             proxy: {
                 type : 'request',

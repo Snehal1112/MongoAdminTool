@@ -31,7 +31,6 @@ class JSONRequest
 
                         // Check if the module is loaded
                         if (is_object($moduleObj)) {
-
                             // Execute the actions in the module
                             $moduleObj->execute();
                         }

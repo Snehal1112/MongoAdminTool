@@ -56,7 +56,8 @@ Ext.define('Mongo.view.mongo.DBCollectionTreeListViewController', {
             var parentNode = record.getTreeStore().getNodeById(recordId);
             parentNode.remove();
         }, this);
-        this.getViewModel().get('documentStore').sync();
+        var store = this.getViewModel().get('documentStore');
+        store.sync();
     },
 
     /**
