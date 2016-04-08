@@ -69,12 +69,9 @@ Ext.define('Mongo.view.mongo.DBCollectionTreeListViewController', {
             refs = this.getReferences(),
             collapsing = !treelist.getMicro(),
             new_width = collapsing ? 44 : 160;
-
         refs.senchaLogo.animate({dynamic: true, to: {width: new_width}});
-
         if(collapsing) {
             ct.setWidth(new_width);
-            
             treelist.setMicro(true);
         } else {
             ct.setWidth(new_width);

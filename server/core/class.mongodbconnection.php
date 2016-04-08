@@ -23,7 +23,7 @@
 		 */
 		public function getCollection($collection, $dataBase)
 		{
-			$dataBase = $this->getDatabase();
+			$dataBase = $this->getDatabase($dataBase);
 			return $dataBase->$collection;
 		}
 
