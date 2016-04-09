@@ -1,3 +1,4 @@
+Ext.ns('Mongo.view.mongo');
 Ext.define('Mongo.view.mongo.CollectionGrid', {
 	/**
 	 * @cfg parent class @link{Ext.tree.Panel TreePanel} extended.
@@ -94,7 +95,7 @@ Ext.define('Mongo.view.mongo.CollectionGrid', {
 				iconCls : 'x-fa fa-edit'
 			},{
 				text: 'Delete',
-				iconCls : 'x-fa fa-remove',
+				iconCls : 'x-fa fa-trash',
 				records : view.getSelection(),
 				listeners : {
 					click : 'onDeleteClick'

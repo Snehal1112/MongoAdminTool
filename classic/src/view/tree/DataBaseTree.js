@@ -1,3 +1,4 @@
+Ext.ns('Mongo.view.tree');
 Ext.define('Mongo.view.tree.DatabaseTree', {
 	/**
 	 * 

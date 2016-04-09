@@ -7,6 +7,7 @@
  * 
  * @singleton
  */
+Ext.ns('Mongo.view.core.data');
 Mongo.view.core.data.SharedComponentType = Mongo.core.Enum.create({
 	/**
 	 * A dialog that creates a new record/message

@@ -1,3 +1,4 @@
+Ext.ns('Mongo.view.core');
 /**
  * @class Zarafa.core.Plugin
  * @extends Zarafa.core.data.StatefulObservable
@@ -10,6 +11,7 @@
  * <p>
  * This class was intended to be overridden.
  */
+ 
  Ext.define('Mongo.view.core.Plugin', {
     //mixins: ['Ext.mixin.Observable'],
     extend : 'Ext.util.Observable',

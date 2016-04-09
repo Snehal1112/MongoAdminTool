@@ -1,3 +1,4 @@
+Ext.ns('Mongo.view.mongo');
 Ext.define('Admin.view.main.MainContainerWrap', {
     extend: 'Ext.container.Container',
     xtype: 'maincontainerwrap',

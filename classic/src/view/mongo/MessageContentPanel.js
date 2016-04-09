@@ -1,3 +1,4 @@
+Ext.ns('Mongo.view.mongo');
 Ext.define('Mongo.view.mongo.MessageContentPanel', {
 	/**
 	 * @cfg parent class @link{Ext.window.Window Window} extended.
@@ -16,7 +17,7 @@ Ext.define('Mongo.view.mongo.MessageContentPanel', {
 	constructor : function(config)
 	{
 		config = config || {};
-
+		
 		Ext.applyIf(config,{
 			xtype : 'messagecontentpanel',
 			layout : 'fit',

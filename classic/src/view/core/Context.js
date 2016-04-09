@@ -1,3 +1,4 @@
+ Ext.ns('Mongo.view.core');
 Ext.define('Mongo.view.core.Context', {
     extend : 'Mongo.view.core.Plugin',
 	/**
@@ -48,9 +49,9 @@ Ext.define('Mongo.view.core.Context', {
 
 		Mongo.view.core.Context.superclass.constructor.call(this, config);
 
-/*		if (this.hasContentPanel === true) {
+		if (this.hasContentPanel === true) {
 			this.registerInsertionPoint('main.content', this.createContentPanel, this);
-		}*/
+		}
 	},
 
 	/**

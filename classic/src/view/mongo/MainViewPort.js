@@ -60,7 +60,7 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
 					reference: 'senchaLogo',
 					cls: 'sencha-logo',
 					html: '<div class="main-logo">Helios</div>',
-					width: 160
+					width: 166
 				},
 				{
 					margin: '0 0 0 8',
@@ -82,7 +82,7 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
 				},
 				{
 					cls: 'delete-focus-bg',
-					iconCls:'x-fa fa-envelope',
+					iconCls:'x-faaa fa-mongodb',
 					href: '#email',
 					hrefTarget: '_self',
 					tooltip: 'Check your email'
@@ -93,7 +93,7 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
 				},
 				{
 					cls: 'delete-focus-bg',
-					iconCls:'x-fa fa-th-large',
+					iconCls:'x-faa fa-test',
 					href: '#profile',
 					hrefTarget: '_self',
 					tooltip: 'See your profile'
@@ -118,6 +118,7 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
 			region: 'west',
 			reference: 'treelistContainer',
 			cls : 'treelist-with-nav',
+			width : 166,
 			layout: {
 				type: 'vbox',
 				align: 'stretch'
@@ -138,19 +139,13 @@ Ext.define('Mongo.view.mongo.MainViewPort', {
 	 */
 	createCollectionPanel : function()
 	{
+		var lazyItems = container.populateInsertionPoint('main.content', this);
 		return {
 			region : 'center',
-			margin : '10 10 10 10',
-			xtype : 'collectiongrid',
-			cls: 'shadow-panel',
-			title : {
-				bind :{
-					text : '{sdText}'
-				}
-			},
-			bind : {
-				store : '{documentStore}'
-			}
+			margin : '10',
+			xtype : 'container',
+			layout : 'fit',
+			items : [lazyItems[0]]
 		}
 	}
 });

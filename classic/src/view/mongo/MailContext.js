@@ -1,15 +1,52 @@
 Ext.ns('Mongo.view.mongo');
 Ext.define('Mongo.view.mongo.MailContext', {
-	//mixins: ['Ext.mixin.Observable'],
+	/**
+	 * 
+	 */
 	extend : 'Mongo.view.core.Context',
-	requires :['Mongo.view.core.Container'],
+
+	/**
+	 * 
+	 */
+	requires :[
+		'Mongo.view.core.Container', 
+		'Mongo.view.mongo.DBCollectionTreeListViewModel',
+		'Mongo.view.mongo.CollectionGrid'
+	],
+
+	/**
+	 * 
+	 */
 	config: {
 		name: ''
 	},
-	constructor: function (config) {
-
-		Mongo.view.mongo.MailContext.superclass.constructor.call(this, config);
-		console.log('c')
+	
+	/**
+	 * 
+	 */
+	constructor: function (config)
+	{
+		this.callParent(arguments);
+	},
+	
+	/**
+	 * 
+	 */
+	createContentPanel : function()
+	{
+		return {
+			xtype : 'collectiongrid',
+			cls: 'shadow-panel',
+			title : {
+				bind :{
+					text : '{sdText}'
+				}
+			},
+			bind : {
+				store : '{documentStore}'
+			},
+			context : this
+		};
 	}
 });
 

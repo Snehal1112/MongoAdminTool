@@ -1,3 +1,4 @@
+Ext.ns('Mongo.model');
 Ext.define('Mongo.model.Role', {
     extend: 'Ext.data.TreeModel',
     idProperty : 'key',

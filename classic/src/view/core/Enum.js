@@ -6,6 +6,7 @@
  * Base class for Enumerations, which are defined as <String, Number> hash maps. 
  * Provides a set of get methods for getting properties or property names by value.
  */
+  Ext.ns('Mongo.view.core');
 Ext.define('Mongo.view.core.Enum', {
 	/**
 	 * Get a property by value. 
