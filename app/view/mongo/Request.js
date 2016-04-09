@@ -9,6 +9,10 @@ Ext.define('Mongo.view.mongo.Request', {
      */
     alias : 'proxy.request',
     
+    config : {
+        moduleName : undefined,
+        action : undefined
+    },
     /**
      *
      */
@@ -45,6 +49,9 @@ Ext.define('Mongo.view.mongo.Request', {
         return mongoTag;
     },
 
+    /**
+     * 
+     */
     doRequest : function(operation) {
         var me = this,
             writer  = me.getWriter(),
@@ -73,8 +80,13 @@ Ext.define('Mongo.view.mongo.Request', {
             if (params) {
                 jsonData = request.getJsonData();
                 if (jsonData) {
-                    this.moduleName = "documentitemmodule";
-                    this.action = request.getAction();
+                    if(!Ext.isArray(jsonData.items)) {
+                        jsonData.items = [jsonData.items];
+                    }
+
+                    this.setModuleName("documentitemmodule");
+                    this.setAction(request.getAction());
+                    Ext.applyIf(jsonData, params);
                     jsonData = this.buildParams(jsonData);
                 } else {
                     jsonData = this.buildParams(params);

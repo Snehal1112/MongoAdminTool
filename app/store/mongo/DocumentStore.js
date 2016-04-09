@@ -78,24 +78,23 @@ Ext.define('Mongo.store.mongo.DocumentStore', {
     /**
      * 
      */
-    load : function(node)
+    load : function(options)
     {
-        var options = {};
-        options['params'] = {};
-
-        if(Ext.isDefined(node)){
-            Ext.apply(options['params'], {
-                'page' : node.page,
-                'start' : node.start,
-                'limit' : node.limit,
-                'addRecords' : node.addRecords
-            });
+        if (!Ext.isObject(options)) {
+            options = {};
         }
 
-        Ext.apply(options['params'], {
-            'database' : this.getDatabase(),
-            'collection' : this.getCollection()
+        if (!Ext.isObject(options.params)) {
+            options.params = {};
+        }
+
+        Ext.apply(options.params, {
+            'collection' : this.getCollection(),
+            'database' : this.getDatabase()
         });
+
+        this.getProxy().setModuleName('documentlistmodule');
+        this.getProxy().setAction('list');
 
         this.callParent([options]);
     }, 
@@ -115,5 +114,4 @@ Ext.define('Mongo.store.mongo.DocumentStore', {
         this.removedNodes = m;
         return this.removedNodes;
     }
-
 });

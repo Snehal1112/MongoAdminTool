@@ -34,14 +34,16 @@ class documentlistmodule extends ListModule
      */
     function getListRecord($action)
     {
-        $co = isset($action['collection']) ?  $action['collection'] : 'restaurants';
-        $db = isset($action['database']) ?  $action['database'] : false;
+        dump($action, '$action');
+        $collectionName = $action['collection'];
+        $databaseName = $action['database'];
         $limit = isset($action['list']) ?  $action['list'] : 25;
         $start = isset($action['start']) ? $action['start'] : 0;
+        
         $data = array();
-        $collection =  $GLOBALS['connection']->connStart($co,$db);
+        
+        $collection =  $GLOBALS['connection']->connStart($collectionName,$databaseName);
         $usersCursor = $collection->find()->limit($limit)->skip($start);
-        dump($usersCursor, '$usersCursor');
         $totalCount = $collection->count();
         foreach ($usersCursor as $document) {
             foreach ($document as $key => $value) {

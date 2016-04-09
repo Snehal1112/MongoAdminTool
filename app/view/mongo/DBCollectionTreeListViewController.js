@@ -57,7 +57,15 @@ Ext.define('Mongo.view.mongo.DBCollectionTreeListViewController', {
             parentNode.remove();
         }, this);
         var store = this.getViewModel().get('documentStore');
-        store.sync();
+       
+        var options = {};
+        options.params = {};
+        Ext.apply(options.params, {
+            collection: store.getCollection(),
+            database : store.getDatabase()
+        });
+
+        store.sync(options);
     },
 
     /**

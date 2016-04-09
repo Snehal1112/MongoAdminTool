@@ -14,7 +14,14 @@ Ext.define('Mongo.view.mongo.DBCollectionTreeListViewModel', {
                     var store = this.getData().documentStore;
                     store.setDatabase(parentNode.get('text'));
                     store.setCollection(selectedNode.get('text'));
-                    store.load();
+                    var options = {};
+                    options.params = {}; 
+                    Ext.apply(options['params'], {
+                        'database' : parentNode.get('text'),
+                        'collection' : selectedNode.get('text')
+                    });
+
+                    store.load(options);
                     return Ext.String.capitalize(parentNode.get('text')) + " > "+ Ext.String.capitalize(selectedNode.get('text'));
                 }
                 return Ext.String.capitalize(selectedNode.get('text'));
